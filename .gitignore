@@ -1,0 +1,6 @@
+*.json
+*million*
+.idea
+*.png
+
+!all*.png
