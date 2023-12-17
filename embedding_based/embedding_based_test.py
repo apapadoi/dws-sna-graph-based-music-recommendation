@@ -94,6 +94,8 @@ else:
     test_playlists = []
     training_undirected_graph = nx.Graph()
     playlist_lengths = []
+    popularity_per_song = {}
+    cooccurences_per_song_pair = {}
     
     for file_name in json_files:
         file_path = os.path.join(folder_path, file_name)
@@ -101,7 +103,7 @@ else:
             print(file_name)
             gc.collect()
 
-        if extract_x_y(file_name)[0] == 10000:
+        if extract_x_y(file_name)[0] == 1000:
             break
             
         with open(file_path, 'r') as json_file:
@@ -121,13 +123,23 @@ else:
                         current_train_playlist = current_playlist['tracks']
 
                         for current_first_track_index, current_first_track in enumerate(current_train_playlist):
+                            u = f"{current_first_track['track_name']}_{current_first_track['artist_name']}_{current_first_track['album_name']}"
+                            if u in popularity_per_song:
+                                popularity_per_song[u] += 1
+                            else:
+                                popularity_per_song[u] = 1
+
                             if current_first_track_index == len(current_train_playlist) - 1:
                                 break
 
                             current_second_track = current_train_playlist[current_first_track_index + 1]
-
-                            u = f"{current_first_track['track_name']}_{current_first_track['artist_name']}_{current_first_track['album_name']}"
+                                
                             v = f"{current_second_track['track_name']}_{current_second_track['artist_name']}_{current_second_track['album_name']}"
+
+                            if f'{u}_{v}' in cooccurences_per_song_pair:
+                                cooccurences_per_song_pair[f'{u}_{v}'] += 1
+                            else:
+                                cooccurences_per_song_pair[f'{u}_{v}'] = 1
 
                             if training_undirected_graph.has_edge(u, v):
                                 training_undirected_graph[u][v]['weight'] += 1
@@ -214,9 +226,12 @@ with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
 
 
 print("Indexing per node:", len(list(indexing_per_node.keys())))
+
+with open('indexing_per_node.json', 'w') as file:
+    json.dump(indexing_per_node, file)
+
 print("Non-neighbors per node:", len(list(non_neighbors_per_node.keys())))
 print("Neighbors per node:", len(list(neighbors_per_node.keys())))
-
 
 embeddings = torch.randn(len(list(training_undirected_graph.nodes())), EMBEDDING_SIZE, requires_grad=True)
 print('embeddings before')
@@ -240,7 +255,7 @@ def embedding_based_loss_function(embeddings):
         weight_tensor_list_stacked = torch.stack(weight_tensor_list)
 
         expanded_node_tensor = embeddings[indexing_per_node[node]].expand_as(neighbor_tensor_list_stacked)
-        lambda_i_j = torch.exp(-torch.norm(expanded_node_tensor - neighbor_tensor_list_stacked, dim=1, p=2)) # TODO integrate bias (edit distance between album titles of corresponding song pair [just an idea to include some NLP too] - normalized to [0,1]? - use of duration?)
+        lambda_i_j = torch.exp(-torch.norm(expanded_node_tensor - neighbor_tensor_list_stacked, dim=1, p=2)) # TODO integrate bias (edit distance between album titles of corresponding song pair [just an idea to include some NLP too] - normalized to [0,1]? - use of duration? - cosine similarity between averaged fasttext embeddings of album titles?)
         current_internal_sum = torch.sum(lambda_i_j - weight_tensor_list_stacked * torch.log10(lambda_i_j))
 
         non_neighbor_tensor_list = []
@@ -249,7 +264,7 @@ def embedding_based_loss_function(embeddings):
             non_neighbor_tensor_list.append(embeddings[indexing_per_node[non_neighbor]])
         
         non_neighbor_tensor_list_stacked = torch.stack(non_neighbor_tensor_list)
-        lambda_i_j = torch.exp(-torch.norm(expanded_node_tensor - non_neighbor_tensor_list_stacked, dim=1, p=2)) # TODO integrate bias (edit distance between album titles of corresponding song pair [just an idea to include some NLP too] - normalized to [0,1]? - use of duration?)
+        lambda_i_j = torch.exp(-torch.norm(expanded_node_tensor - non_neighbor_tensor_list_stacked, dim=1, p=2)) # TODO integrate bias (edit distance between album titles of corresponding song pair [just an idea to include some NLP too] - normalized to [0,1]? - use of duration? - cosine similarity between averaged fasttext embeddings of album titles?)
         poisson_tensor_list = torch.poisson(lambda_i_j)
 
         current_internal_sum += torch.sum(lambda_i_j - poisson_tensor_list * torch.log10(lambda_i_j))
@@ -284,10 +299,11 @@ print(optimized_embeddings.shape)
 print(optimized_embeddings[0])
 
 # Evaluation
-# TODO evaluation can be done in parallel with ThreadPoolExecutor
 training_graph_nodes = list(training_undirected_graph.nodes())
-testing_ranks_per_transition = []
-for index, current_test_playlist in enumerate(test_playlists):
+def process_test_playlist(current_test_playlist, index):
+    result_poisson = []
+    result_popularity = []
+    result_cooccurence = []
     print(f'test playlist {index}/{len(test_playlists)}')
     current_seen_tracks = []
     for current_first_track_index, current_first_track in enumerate(current_test_playlist):
@@ -322,37 +338,59 @@ for index, current_test_playlist in enumerate(test_playlists):
             else:
                 embeddings_for_candidate_song_list.append((track, rng.standard_normal(EMBEDDING_SIZE)))
 
+        def derive_correct_song_rank(distances_from_first_track_in_pair):
+            indexed_distances = list(enumerate(distances_from_first_track_in_pair))
 
-        distances_from_first_track = [np.linalg.norm(array[1] - optimized_embedding_to_use_for_first_track) for array in embeddings_for_candidate_song_list]
+            sorted_distances = sorted(indexed_distances, key=lambda x: x[1])
+
+            sorted_indices = [index for index, _ in sorted_distances]
+
+            sorted_candidate_song_list = [embeddings_for_candidate_song_list[index] for index in sorted_indices]
+
+            correct_song_rank = -1
+            for current_candidate_song_index, song in enumerate(sorted_candidate_song_list):
+                if song[0] == current_second_track:
+                    correct_song_rank = current_candidate_song_index + 1
+                    break
+
+            assert correct_song_rank > 0
+            return correct_song_rank
         
-        indexed_distances = list(enumerate(distances_from_first_track))
 
-        sorted_distances = sorted(indexed_distances, key=lambda x: x[1])
+        result_poisson.append(derive_correct_song_rank([np.linalg.norm(array[1] - optimized_embedding_to_use_for_first_track) for array in embeddings_for_candidate_song_list]))
+        result_popularity.append(derive_correct_song_rank([-popularity_per_song[song] if song in popularity_per_song else len(current_candidate_song_list) for song in current_candidate_song_list]))
+        result_cooccurence.append(derive_correct_song_rank([-cooccurences_per_song_pair[f'{current_first_track}_{song}'] if f'{current_first_track}_{song}' in cooccurences_per_song_pair else len(current_candidate_song_list) for song in current_candidate_song_list]))
 
-        sorted_indices = [index for index, _ in sorted_distances]
+    return result_poisson, result_popularity, result_cooccurence
 
-        sorted_candidate_song_list = [embeddings_for_candidate_song_list[index] for index in sorted_indices]
 
-        correct_song_rank = -1
-        for current_candidate_song_index, song in enumerate(sorted_candidate_song_list):
-            if song[0] == current_second_track:
-                correct_song_rank = current_candidate_song_index + 1
-                break
+poisson_testing_ranks_per_transition = []
+popularity_testing_ranks_per_transition = []
+cooccurences_testing_ranks_per_transition = []
+with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
+    futures = {executor.submit(process_test_playlist, current_test_playlist, index): (current_test_playlist, index) for index, current_test_playlist in enumerate(test_playlists)}
+    for future in futures:
+        result_poisson, result_popularity, result_cooccurence = future.result()
+        poisson_testing_ranks_per_transition.extend(result_poisson)
+        popularity_testing_ranks_per_transition.extend(result_popularity)
+        cooccurences_testing_ranks_per_transition.extend(result_cooccurence)
 
-        assert correct_song_rank > 0
-        testing_ranks_per_transition.append(correct_song_rank)
+def calculate_metrics_per_method(method, ranks):
+    reciprocal_ranks = [1 / rank for rank in ranks if rank != 0]
+    mrr = np.mean(reciprocal_ranks) if reciprocal_ranks else 0.0
 
-print('test')
+    print(f"Method: {method} - Mean Reciprocal Rank (MRR):", mrr)
 
-reciprocal_ranks = [1 / rank for rank in testing_ranks_per_transition if rank != 0]
-mrr = np.mean(reciprocal_ranks) if reciprocal_ranks else 0.0
+    relevant_items = sum(1 for rank in ranks if rank <= K)
+    total_transitions = len(ranks)
 
-print("Mean Reciprocal Rank (MRR):", mrr)
+    recall_at_k = relevant_items / total_transitions if total_transitions != 0 else 0.0
 
-relevant_items = sum(1 for rank in testing_ranks_per_transition if rank <= K)
-total_transitions = len(testing_ranks_per_transition)
+    print(f"Method: {method} - Recall@{K}: {recall_at_k}")
 
-recall_at_k = relevant_items / total_transitions if total_transitions != 0 else 0.0
+calculate_metrics_per_method('Poisson', poisson_testing_ranks_per_transition)
+calculate_metrics_per_method('Popularity', popularity_testing_ranks_per_transition)
+calculate_metrics_per_method('Co-occurence', cooccurences_testing_ranks_per_transition)
 
-print(f"Recall@{K}: {recall_at_k}")
-# TODO save embeddings in order to have them pre-computed, visualize some of them and implement baselines for comparisons, effect of learning rate?
+# TODO metadata with jaccard index between artist name and album name, visualize effect of learning rate?
+np.save('optimized_embeddings.npy', optimized_embeddings)
