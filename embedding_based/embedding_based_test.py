@@ -12,7 +12,6 @@ import torch
 import torch.optim as optim
 import seaborn as sns
 
-# TODO check if it is automatically executed in CUDA when available
 if len(sys.argv) == 1:
     raise RuntimeError("Missing command line argument")
 elif sys.argv[1] == 'challenge':
