@@ -1,0 +1,3803 @@
+mpd.slice.0-999.json
+Total playlists: 1000
+Non-empty playlists: 1000
+Number of nodes (undirected graph): 26673
+Number of edges (undirected graph): 45545
+Using cuda
+Indexing per node: 26673
+Non-neighbors per node: 26673
+Neighbors per node: 26673
+embeddings shape before
+torch.Size([26673, 8])
+epoch: 1/1000
+loss: 165553.203125
+epoch: 2/1000
+loss: 164395.15625
+epoch: 3/1000
+loss: 163036.234375
+epoch: 4/1000
+loss: 161808.25
+epoch: 5/1000
+loss: 160716.546875
+epoch: 6/1000
+loss: 159434.40625
+epoch: 7/1000
+loss: 158299.0625
+epoch: 8/1000
+loss: 157158.53125
+epoch: 9/1000
+loss: 155940.34375
+epoch: 10/1000
+loss: 154899.265625
+epoch: 11/1000
+loss: 153804.953125
+epoch: 12/1000
+loss: 152665.875
+epoch: 13/1000
+loss: 151696.921875
+epoch: 14/1000
+loss: 150584.796875
+epoch: 15/1000
+loss: 149432.515625
+epoch: 16/1000
+loss: 148585.328125
+epoch: 17/1000
+loss: 147304.0625
+epoch: 18/1000
+loss: 146515.03125
+epoch: 19/1000
+loss: 145511.453125
+epoch: 20/1000
+loss: 144495.015625
+epoch: 21/1000
+loss: 143602.484375
+epoch: 22/1000
+loss: 142428.8125
+epoch: 23/1000
+loss: 141445.53125
+epoch: 24/1000
+loss: 140717.421875
+epoch: 25/1000
+loss: 139801.171875
+epoch: 26/1000
+loss: 138724.40625
+epoch: 27/1000
+loss: 137917.09375
+epoch: 28/1000
+loss: 137147.09375
+epoch: 29/1000
+loss: 136211.875
+epoch: 30/1000
+loss: 135569.28125
+epoch: 31/1000
+loss: 134608.171875
+epoch: 32/1000
+loss: 133796.0
+epoch: 33/1000
+loss: 132858.84375
+epoch: 34/1000
+loss: 132164.96875
+epoch: 35/1000
+loss: 131440.0
+epoch: 36/1000
+loss: 130677.3359375
+epoch: 37/1000
+loss: 129910.09375
+epoch: 38/1000
+loss: 129082.8984375
+epoch: 39/1000
+loss: 128436.3828125
+epoch: 40/1000
+loss: 127822.265625
+epoch: 41/1000
+loss: 127036.1640625
+epoch: 42/1000
+loss: 126445.0859375
+epoch: 43/1000
+loss: 125809.7265625
+epoch: 44/1000
+loss: 125227.1640625
+epoch: 45/1000
+loss: 124593.03125
+epoch: 46/1000
+loss: 123805.5546875
+epoch: 47/1000
+loss: 123078.96875
+epoch: 48/1000
+loss: 122762.1015625
+epoch: 49/1000
+loss: 122124.03125
+epoch: 50/1000
+loss: 121615.140625
+epoch: 51/1000
+loss: 120956.7890625
+epoch: 52/1000
+loss: 120363.0234375
+epoch: 53/1000
+loss: 119790.46875
+epoch: 54/1000
+loss: 119232.1875
+epoch: 55/1000
+loss: 118968.5625
+epoch: 56/1000
+loss: 118387.9375
+epoch: 57/1000
+loss: 117771.3125
+epoch: 58/1000
+loss: 117347.5
+epoch: 59/1000
+loss: 116820.3515625
+epoch: 60/1000
+loss: 116308.4140625
+epoch: 61/1000
+loss: 115786.1875
+epoch: 62/1000
+loss: 115405.984375
+epoch: 63/1000
+loss: 114971.71875
+epoch: 64/1000
+loss: 114411.8046875
+epoch: 65/1000
+loss: 114054.9921875
+epoch: 66/1000
+loss: 113627.3359375
+epoch: 67/1000
+loss: 113264.0703125
+epoch: 68/1000
+loss: 112999.5234375
+epoch: 69/1000
+loss: 112674.28125
+epoch: 70/1000
+loss: 112182.8671875
+epoch: 71/1000
+loss: 111932.75
+epoch: 72/1000
+loss: 111587.8125
+epoch: 73/1000
+loss: 111252.984375
+epoch: 74/1000
+loss: 110775.203125
+epoch: 75/1000
+loss: 110473.0390625
+epoch: 76/1000
+loss: 110267.6015625
+epoch: 77/1000
+loss: 109908.578125
+epoch: 78/1000
+loss: 109447.4296875
+epoch: 79/1000
+loss: 109238.8125
+epoch: 80/1000
+loss: 108928.59375
+epoch: 81/1000
+loss: 108736.3671875
+epoch: 82/1000
+loss: 108357.625
+epoch: 83/1000
+loss: 108054.9140625
+epoch: 84/1000
+loss: 107899.015625
+epoch: 85/1000
+loss: 107426.453125
+epoch: 86/1000
+loss: 107478.5390625
+epoch: 87/1000
+loss: 107038.328125
+epoch: 88/1000
+loss: 106840.828125
+epoch: 89/1000
+loss: 106752.2578125
+epoch: 90/1000
+loss: 106218.4609375
+epoch: 91/1000
+loss: 106032.234375
+epoch: 92/1000
+loss: 105714.5234375
+epoch: 93/1000
+loss: 105742.3984375
+epoch: 94/1000
+loss: 105522.0703125
+epoch: 95/1000
+loss: 105234.921875
+epoch: 96/1000
+loss: 105130.0
+epoch: 97/1000
+loss: 104678.4765625
+epoch: 98/1000
+loss: 104628.4140625
+epoch: 99/1000
+loss: 104486.1328125
+epoch: 100/1000
+loss: 104247.0390625
+epoch: 101/1000
+loss: 104011.171875
+epoch: 102/1000
+loss: 103877.4609375
+epoch: 103/1000
+loss: 103669.84375
+epoch: 104/1000
+loss: 103599.0078125
+epoch: 105/1000
+loss: 103444.921875
+epoch: 106/1000
+loss: 103214.6640625
+epoch: 107/1000
+loss: 103041.765625
+epoch: 108/1000
+loss: 102869.6171875
+epoch: 109/1000
+loss: 102688.546875
+epoch: 110/1000
+loss: 102592.671875
+epoch: 111/1000
+loss: 102346.078125
+epoch: 112/1000
+loss: 102323.046875
+epoch: 113/1000
+loss: 102002.4453125
+epoch: 114/1000
+loss: 102070.453125
+epoch: 115/1000
+loss: 101941.2265625
+epoch: 116/1000
+loss: 101626.5234375
+epoch: 117/1000
+loss: 101538.078125
+epoch: 118/1000
+loss: 101283.3671875
+epoch: 119/1000
+loss: 101299.3671875
+epoch: 120/1000
+loss: 101158.90625
+epoch: 121/1000
+loss: 101132.7578125
+epoch: 122/1000
+loss: 100794.5078125
+epoch: 123/1000
+loss: 100542.7578125
+epoch: 124/1000
+loss: 100536.546875
+epoch: 125/1000
+loss: 100414.9140625
+epoch: 126/1000
+loss: 100426.0546875
+epoch: 127/1000
+loss: 100382.9765625
+epoch: 128/1000
+loss: 100130.0
+epoch: 129/1000
+loss: 100198.3046875
+epoch: 130/1000
+loss: 99940.515625
+epoch: 131/1000
+loss: 99811.578125
+epoch: 132/1000
+loss: 99746.6875
+epoch: 133/1000
+loss: 99342.4453125
+epoch: 134/1000
+loss: 99404.640625
+epoch: 135/1000
+loss: 99367.5625
+epoch: 136/1000
+loss: 99367.625
+epoch: 137/1000
+loss: 99418.4765625
+epoch: 138/1000
+loss: 99098.3828125
+epoch: 139/1000
+loss: 99154.2265625
+epoch: 140/1000
+loss: 98993.2421875
+epoch: 141/1000
+loss: 98882.890625
+epoch: 142/1000
+loss: 98639.21875
+epoch: 143/1000
+loss: 98683.265625
+epoch: 144/1000
+loss: 98476.453125
+epoch: 145/1000
+loss: 98431.6640625
+epoch: 146/1000
+loss: 98252.2578125
+epoch: 147/1000
+loss: 98317.90625
+epoch: 148/1000
+loss: 98116.390625
+epoch: 149/1000
+loss: 98013.3125
+epoch: 150/1000
+loss: 97945.5390625
+epoch: 151/1000
+loss: 97764.34375
+epoch: 152/1000
+loss: 97846.8125
+epoch: 153/1000
+loss: 97759.0703125
+epoch: 154/1000
+loss: 97699.0625
+epoch: 155/1000
+loss: 97495.2265625
+epoch: 156/1000
+loss: 97388.890625
+epoch: 157/1000
+loss: 97354.359375
+epoch: 158/1000
+loss: 97371.9921875
+epoch: 159/1000
+loss: 96951.5703125
+epoch: 160/1000
+loss: 97127.5390625
+epoch: 161/1000
+loss: 97115.671875
+epoch: 162/1000
+loss: 96771.921875
+epoch: 163/1000
+loss: 96895.421875
+epoch: 164/1000
+loss: 96849.6015625
+epoch: 165/1000
+loss: 96755.1328125
+epoch: 166/1000
+loss: 96688.640625
+epoch: 167/1000
+loss: 96588.75
+epoch: 168/1000
+loss: 96587.4921875
+epoch: 169/1000
+loss: 96481.7890625
+epoch: 170/1000
+loss: 96271.2890625
+epoch: 171/1000
+loss: 96310.765625
+epoch: 172/1000
+loss: 96327.25
+epoch: 173/1000
+loss: 96203.53125
+epoch: 174/1000
+loss: 95984.546875
+epoch: 175/1000
+loss: 96095.2734375
+epoch: 176/1000
+loss: 95897.4609375
+epoch: 177/1000
+loss: 95840.2109375
+epoch: 178/1000
+loss: 95732.546875
+epoch: 179/1000
+loss: 95634.75
+epoch: 180/1000
+loss: 95717.0078125
+epoch: 181/1000
+loss: 95623.7109375
+epoch: 182/1000
+loss: 95514.0078125
+epoch: 183/1000
+loss: 95505.3984375
+epoch: 184/1000
+loss: 95326.4765625
+epoch: 185/1000
+loss: 95371.859375
+epoch: 186/1000
+loss: 95294.65625
+epoch: 187/1000
+loss: 95203.15625
+epoch: 188/1000
+loss: 95181.234375
+epoch: 189/1000
+loss: 95120.296875
+epoch: 190/1000
+loss: 95120.0234375
+epoch: 191/1000
+loss: 95082.2421875
+epoch: 192/1000
+loss: 94693.515625
+epoch: 193/1000
+loss: 94607.53125
+epoch: 194/1000
+loss: 94825.3984375
+epoch: 195/1000
+loss: 94670.7109375
+epoch: 196/1000
+loss: 94634.8828125
+epoch: 197/1000
+loss: 94633.984375
+epoch: 198/1000
+loss: 94666.921875
+epoch: 199/1000
+loss: 94641.1171875
+epoch: 200/1000
+loss: 94387.9921875
+epoch: 201/1000
+loss: 94469.203125
+epoch: 202/1000
+loss: 94229.953125
+epoch: 203/1000
+loss: 94282.8359375
+epoch: 204/1000
+loss: 94308.9453125
+epoch: 205/1000
+loss: 94314.9453125
+epoch: 206/1000
+loss: 94009.5546875
+epoch: 207/1000
+loss: 94052.9921875
+epoch: 208/1000
+loss: 93979.7265625
+epoch: 209/1000
+loss: 94025.6015625
+epoch: 210/1000
+loss: 94047.65625
+epoch: 211/1000
+loss: 93902.21875
+epoch: 212/1000
+loss: 93840.5234375
+epoch: 213/1000
+loss: 93664.390625
+epoch: 214/1000
+loss: 93868.8046875
+epoch: 215/1000
+loss: 93733.7578125
+epoch: 216/1000
+loss: 93712.3515625
+epoch: 217/1000
+loss: 93382.765625
+epoch: 218/1000
+loss: 93581.5546875
+epoch: 219/1000
+loss: 93231.0546875
+epoch: 220/1000
+loss: 93363.9921875
+epoch: 221/1000
+loss: 93524.0078125
+epoch: 222/1000
+loss: 93207.796875
+epoch: 223/1000
+loss: 93451.71875
+epoch: 224/1000
+loss: 93344.234375
+epoch: 225/1000
+loss: 93190.578125
+epoch: 226/1000
+loss: 93177.9765625
+epoch: 227/1000
+loss: 93054.65625
+epoch: 228/1000
+loss: 93024.5859375
+epoch: 229/1000
+loss: 92959.5234375
+epoch: 230/1000
+loss: 93008.890625
+epoch: 231/1000
+loss: 92858.2578125
+epoch: 232/1000
+loss: 92877.2734375
+epoch: 233/1000
+loss: 92823.453125
+epoch: 234/1000
+loss: 92893.765625
+epoch: 235/1000
+loss: 92616.7265625
+epoch: 236/1000
+loss: 92616.078125
+epoch: 237/1000
+loss: 92740.03125
+epoch: 238/1000
+loss: 92409.9609375
+epoch: 239/1000
+loss: 92748.9296875
+epoch: 240/1000
+loss: 92410.9765625
+epoch: 241/1000
+loss: 92389.0234375
+epoch: 242/1000
+loss: 92376.09375
+epoch: 243/1000
+loss: 92503.6171875
+epoch: 244/1000
+loss: 92322.109375
+epoch: 245/1000
+loss: 92285.7265625
+epoch: 246/1000
+loss: 92338.609375
+epoch: 247/1000
+loss: 92398.484375
+epoch: 248/1000
+loss: 92146.09375
+epoch: 249/1000
+loss: 92191.609375
+epoch: 250/1000
+loss: 92233.78125
+epoch: 251/1000
+loss: 92053.390625
+epoch: 252/1000
+loss: 92307.4921875
+epoch: 253/1000
+loss: 92024.9765625
+epoch: 254/1000
+loss: 91843.1484375
+epoch: 255/1000
+loss: 92010.046875
+epoch: 256/1000
+loss: 91993.5703125
+epoch: 257/1000
+loss: 91823.8671875
+epoch: 258/1000
+loss: 91755.3828125
+epoch: 259/1000
+loss: 91787.0234375
+epoch: 260/1000
+loss: 91831.2578125
+epoch: 261/1000
+loss: 91732.625
+epoch: 262/1000
+loss: 91685.5078125
+epoch: 263/1000
+loss: 91564.546875
+epoch: 264/1000
+loss: 91729.484375
+epoch: 265/1000
+loss: 91541.3125
+epoch: 266/1000
+loss: 91793.859375
+epoch: 267/1000
+loss: 91536.9609375
+epoch: 268/1000
+loss: 91556.7109375
+epoch: 269/1000
+loss: 91556.3125
+epoch: 270/1000
+loss: 91498.328125
+epoch: 271/1000
+loss: 91174.8125
+epoch: 272/1000
+loss: 91458.6484375
+epoch: 273/1000
+loss: 91268.9375
+epoch: 274/1000
+loss: 91252.234375
+epoch: 275/1000
+loss: 91311.4765625
+epoch: 276/1000
+loss: 91086.46875
+epoch: 277/1000
+loss: 91259.8828125
+epoch: 278/1000
+loss: 90998.7890625
+epoch: 279/1000
+loss: 91102.3203125
+epoch: 280/1000
+loss: 91169.3125
+epoch: 281/1000
+loss: 90946.2265625
+epoch: 282/1000
+loss: 91115.1171875
+epoch: 283/1000
+loss: 91116.65625
+epoch: 284/1000
+loss: 90835.609375
+epoch: 285/1000
+loss: 91109.2421875
+epoch: 286/1000
+loss: 90912.9375
+epoch: 287/1000
+loss: 91072.6796875
+epoch: 288/1000
+loss: 90800.5546875
+epoch: 289/1000
+loss: 90705.8984375
+epoch: 290/1000
+loss: 90768.0390625
+epoch: 291/1000
+loss: 90718.0
+epoch: 292/1000
+loss: 90770.578125
+epoch: 293/1000
+loss: 90724.4375
+epoch: 294/1000
+loss: 90459.1796875
+epoch: 295/1000
+loss: 90652.6796875
+epoch: 296/1000
+loss: 90521.4375
+epoch: 297/1000
+loss: 90599.0390625
+epoch: 298/1000
+loss: 90673.1015625
+epoch: 299/1000
+loss: 90397.6484375
+epoch: 300/1000
+loss: 90481.5234375
+epoch: 301/1000
+loss: 90402.84375
+epoch: 302/1000
+loss: 90460.3203125
+epoch: 303/1000
+loss: 90385.3203125
+epoch: 304/1000
+loss: 90254.546875
+epoch: 305/1000
+loss: 90289.203125
+epoch: 306/1000
+loss: 90199.421875
+epoch: 307/1000
+loss: 90283.4375
+epoch: 308/1000
+loss: 90181.4609375
+epoch: 309/1000
+loss: 90220.3125
+epoch: 310/1000
+loss: 90148.5234375
+epoch: 311/1000
+loss: 90189.4140625
+epoch: 312/1000
+loss: 90205.1015625
+epoch: 313/1000
+loss: 90072.71875
+epoch: 314/1000
+loss: 90040.421875
+epoch: 315/1000
+loss: 90010.390625
+epoch: 316/1000
+loss: 89945.453125
+epoch: 317/1000
+loss: 90006.3046875
+epoch: 318/1000
+loss: 89929.25
+epoch: 319/1000
+loss: 90003.8359375
+epoch: 320/1000
+loss: 90023.3515625
+epoch: 321/1000
+loss: 89845.9375
+epoch: 322/1000
+loss: 89964.1484375
+epoch: 323/1000
+loss: 89872.90625
+epoch: 324/1000
+loss: 89856.140625
+epoch: 325/1000
+loss: 89853.96875
+epoch: 326/1000
+loss: 89846.703125
+epoch: 327/1000
+loss: 89635.75
+epoch: 328/1000
+loss: 89827.984375
+epoch: 329/1000
+loss: 89880.609375
+epoch: 330/1000
+loss: 89635.1484375
+epoch: 331/1000
+loss: 89723.1015625
+epoch: 332/1000
+loss: 89827.953125
+epoch: 333/1000
+loss: 89661.0625
+epoch: 334/1000
+loss: 89495.015625
+epoch: 335/1000
+loss: 89575.078125
+epoch: 336/1000
+loss: 89371.3671875
+epoch: 337/1000
+loss: 89680.5546875
+epoch: 338/1000
+loss: 89499.859375
+epoch: 339/1000
+loss: 89572.859375
+epoch: 340/1000
+loss: 89496.6875
+epoch: 341/1000
+loss: 89385.5703125
+epoch: 342/1000
+loss: 89429.21875
+epoch: 343/1000
+loss: 89502.8046875
+epoch: 344/1000
+loss: 89434.859375
+epoch: 345/1000
+loss: 89115.1171875
+epoch: 346/1000
+loss: 89138.234375
+epoch: 347/1000
+loss: 89238.2421875
+epoch: 348/1000
+loss: 89395.765625
+epoch: 349/1000
+loss: 89157.1640625
+epoch: 350/1000
+loss: 89293.328125
+epoch: 351/1000
+loss: 89169.9375
+epoch: 352/1000
+loss: 89185.5625
+epoch: 353/1000
+loss: 89202.9296875
+epoch: 354/1000
+loss: 89213.9296875
+epoch: 355/1000
+loss: 89156.2578125
+Early stopping - Epoch: 354, Best loss: 89115.1171875
+Total Training Time: 20637.0690 seconds
+embeddings shape after
+(26673, 8)
+test playlist 1/300
+test playlist 2/300
+test playlist 3/300
+test playlist 4/300
+test playlist 5/300
+test playlist 6/300
+test playlist 7/300
+test playlist 8/300test playlist 9/300
+
+test playlist 10/300
+test playlist 11/300
+test playlist 12/300
+test playlist 13/300
+test playlist 14/300
+test playlist 15/300
+test playlist 16/300test playlist 17/300
+test playlist 18/300
+
+test playlist 19/300
+test playlist 20/300
+test playlist 21/300
+test playlist 22/300
+test playlist 23/300
+test playlist 24/300
+test playlist 25/300
+test playlist 26/300
+test playlist 27/300
+test playlist 28/300
+test playlist 29/300test playlist 30/300
+
+test playlist 31/300test playlist 32/300
+
+test playlist 33/300
+test playlist 34/300
+test playlist 35/300
+test playlist 36/300
+test playlist 37/300
+test playlist 38/300
+test playlist 39/300
+test playlist 40/300
+test playlist 41/300
+test playlist 42/300
+test playlist 43/300
+test playlist 44/300
+test playlist 45/300
+test playlist 46/300test playlist 47/300
+
+test playlist 48/300test playlist 49/300
+
+test playlist 50/300
+test playlist 51/300
+test playlist 52/300
+test playlist 53/300
+test playlist 54/300test playlist 55/300
+
+test playlist 56/300
+test playlist 57/300
+test playlist 58/300
+test playlist 59/300
+test playlist 60/300
+test playlist 61/300
+test playlist 62/300
+test playlist 63/300
+test playlist 64/300
+test playlist 65/300
+test playlist 66/300
+test playlist 67/300
+test playlist 68/300
+test playlist 69/300
+test playlist 70/300
+test playlist 71/300
+test playlist 72/300
+test playlist 73/300
+test playlist 74/300
+test playlist 75/300
+test playlist 76/300test playlist 77/300
+
+test playlist 78/300
+test playlist 79/300
+test playlist 80/300
+test playlist 81/300
+test playlist 82/300
+test playlist 83/300
+test playlist 84/300
+test playlist 85/300
+test playlist 86/300
+test playlist 87/300
+test playlist 88/300test playlist 89/300
+
+test playlist 90/300
+test playlist 91/300
+test playlist 92/300
+test playlist 93/300
+test playlist 94/300
+test playlist 95/300test playlist 96/300
+test playlist 97/300
+
+test playlist 98/300
+test playlist 99/300
+test playlist 100/300
+test playlist 101/300test playlist 102/300
+
+test playlist 103/300
+test playlist 104/300
+test playlist 105/300
+test playlist 106/300
+test playlist 107/300
+test playlist 108/300
+test playlist 109/300
+test playlist 110/300
+test playlist 111/300
+test playlist 112/300
+test playlist 113/300
+test playlist 114/300
+test playlist 115/300test playlist 116/300
+
+test playlist 117/300
+test playlist 118/300
+test playlist 119/300
+test playlist 120/300
+test playlist 121/300
+test playlist 122/300
+test playlist 123/300
+test playlist 124/300
+test playlist 125/300test playlist 126/300
+
+test playlist 127/300test playlist 128/300
+
+test playlist 129/300
+test playlist 130/300
+test playlist 131/300
+test playlist 132/300
+test playlist 133/300
+test playlist 134/300
+test playlist 135/300
+test playlist 136/300
+test playlist 137/300test playlist 138/300
+
+test playlist 139/300
+test playlist 140/300
+test playlist 141/300
+test playlist 142/300
+test playlist 143/300
+test playlist 144/300
+test playlist 145/300
+test playlist 146/300
+test playlist 147/300
+test playlist 148/300
+test playlist 149/300
+test playlist 150/300
+test playlist 151/300
+test playlist 152/300
+test playlist 153/300
+test playlist 154/300
+test playlist 155/300
+test playlist 156/300
+test playlist 157/300
+test playlist 158/300test playlist 159/300
+
+test playlist 160/300test playlist 161/300
+
+test playlist 162/300
+test playlist 163/300
+test playlist 164/300
+test playlist 165/300
+test playlist 166/300
+test playlist 167/300
+test playlist 168/300
+test playlist 169/300
+test playlist 170/300
+test playlist 171/300
+test playlist 172/300
+test playlist 173/300
+test playlist 174/300
+test playlist 175/300
+test playlist 176/300test playlist 177/300
+
+test playlist 178/300test playlist 179/300
+
+test playlist 180/300
+test playlist 181/300
+test playlist 182/300
+test playlist 183/300
+test playlist 184/300
+test playlist 185/300
+test playlist 186/300
+test playlist 187/300test playlist 188/300
+
+test playlist 189/300
+test playlist 190/300
+test playlist 191/300
+test playlist 192/300
+test playlist 193/300
+test playlist 194/300
+test playlist 195/300test playlist 196/300
+
+test playlist 197/300
+test playlist 198/300
+test playlist 199/300test playlist 200/300
+
+test playlist 201/300
+test playlist 202/300
+test playlist 203/300
+test playlist 204/300
+test playlist 205/300
+test playlist 206/300test playlist 207/300
+
+test playlist 208/300
+test playlist 209/300
+test playlist 210/300
+test playlist 211/300
+test playlist 212/300
+test playlist 213/300
+test playlist 214/300
+test playlist 215/300
+test playlist 216/300
+test playlist 217/300
+test playlist 218/300
+test playlist 219/300
+test playlist 220/300
+test playlist 221/300
+test playlist 222/300
+test playlist 223/300
+test playlist 224/300
+test playlist 225/300
+test playlist 226/300
+test playlist 227/300
+test playlist 228/300
+test playlist 229/300
+test playlist 230/300
+test playlist 231/300
+test playlist 232/300
+test playlist 233/300
+test playlist 234/300
+test playlist 235/300
+test playlist 236/300
+test playlist 237/300
+test playlist 238/300
+test playlist 239/300
+test playlist 240/300
+test playlist 241/300
+test playlist 242/300
+test playlist 243/300
+test playlist 244/300
+test playlist 245/300
+test playlist 246/300
+test playlist 247/300
+test playlist 248/300
+test playlist 249/300
+test playlist 250/300
+test playlist 251/300
+test playlist 252/300
+test playlist 253/300
+test playlist 254/300
+test playlist 255/300
+test playlist 256/300
+test playlist 257/300
+test playlist 258/300
+test playlist 259/300
+test playlist 260/300
+test playlist 261/300
+test playlist 262/300
+test playlist 263/300
+test playlist 264/300
+test playlist 265/300
+test playlist 266/300
+test playlist 267/300
+test playlist 268/300
+test playlist 269/300
+test playlist 270/300
+test playlist 271/300
+test playlist 272/300
+test playlist 273/300
+test playlist 274/300
+test playlist 275/300
+test playlist 276/300
+test playlist 277/300
+test playlist 278/300
+test playlist 279/300
+test playlist 280/300
+test playlist 281/300test playlist 282/300
+
+test playlist 283/300
+test playlist 284/300
+test playlist 285/300
+test playlist 286/300
+test playlist 287/300
+test playlist 288/300
+test playlist 289/300
+test playlist 290/300
+test playlist 291/300
+test playlist 292/300
+test playlist 293/300
+test playlist 294/300
+test playlist 295/300
+test playlist 296/300
+test playlist 297/300
+test playlist 298/300
+test playlist 299/300
+test playlist 300/300
+Round 1/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.443
+Method: Popularity - Recall@5: 0.576
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.364
+Method: Co-occurence - Recall@5: 0.518
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.409
+Method: PoissonEmb - Recall@5: 0.601
+test playlist 1/300
+test playlist 2/300
+test playlist 3/300
+test playlist 4/300
+test playlist 5/300
+test playlist 6/300
+test playlist 7/300
+test playlist 8/300test playlist 9/300
+test playlist 10/300
+test playlist 11/300
+test playlist 12/300
+
+test playlist 13/300
+test playlist 14/300
+test playlist 15/300
+test playlist 16/300
+test playlist 17/300
+test playlist 18/300
+test playlist 19/300
+test playlist 20/300
+test playlist 21/300
+test playlist 22/300
+test playlist 23/300test playlist 24/300
+
+test playlist 25/300
+test playlist 26/300
+test playlist 27/300
+test playlist 28/300
+test playlist 29/300
+test playlist 30/300
+test playlist 31/300
+test playlist 32/300test playlist 33/300
+test playlist 34/300
+
+test playlist 35/300
+test playlist 36/300
+test playlist 37/300
+test playlist 38/300
+test playlist 39/300
+test playlist 40/300
+test playlist 41/300
+test playlist 42/300
+test playlist 43/300
+test playlist 44/300
+test playlist 45/300
+test playlist 46/300
+test playlist 47/300
+test playlist 48/300
+test playlist 49/300
+test playlist 50/300
+test playlist 51/300
+test playlist 52/300
+test playlist 53/300
+test playlist 54/300
+test playlist 55/300
+test playlist 56/300
+test playlist 57/300
+test playlist 58/300
+test playlist 59/300
+test playlist 60/300
+test playlist 61/300
+test playlist 62/300
+test playlist 63/300
+test playlist 64/300
+test playlist 65/300
+test playlist 66/300
+test playlist 67/300
+test playlist 68/300
+test playlist 69/300
+test playlist 70/300
+test playlist 71/300
+test playlist 72/300
+test playlist 73/300
+test playlist 74/300
+test playlist 75/300
+test playlist 76/300
+test playlist 77/300
+test playlist 78/300test playlist 79/300
+
+test playlist 80/300
+test playlist 81/300test playlist 82/300
+
+test playlist 83/300test playlist 84/300
+
+test playlist 85/300
+test playlist 86/300
+test playlist 87/300
+test playlist 88/300
+test playlist 89/300
+test playlist 90/300
+test playlist 91/300
+test playlist 92/300
+test playlist 93/300
+test playlist 94/300
+test playlist 95/300
+test playlist 96/300test playlist 97/300
+
+test playlist 98/300
+test playlist 99/300
+test playlist 100/300
+test playlist 101/300
+test playlist 102/300
+test playlist 103/300
+test playlist 104/300
+test playlist 105/300test playlist 106/300
+test playlist 107/300
+
+test playlist 108/300
+test playlist 109/300
+test playlist 110/300
+test playlist 111/300
+test playlist 112/300
+test playlist 113/300
+test playlist 114/300test playlist 115/300
+
+test playlist 116/300
+test playlist 117/300
+test playlist 118/300test playlist 119/300
+
+test playlist 120/300
+test playlist 121/300
+test playlist 122/300
+test playlist 123/300
+test playlist 124/300
+test playlist 125/300
+test playlist 126/300
+test playlist 127/300
+test playlist 128/300
+test playlist 129/300
+test playlist 130/300
+test playlist 131/300
+test playlist 132/300
+test playlist 133/300
+test playlist 134/300
+test playlist 135/300
+test playlist 136/300
+test playlist 137/300
+test playlist 138/300
+test playlist 139/300
+test playlist 140/300
+test playlist 141/300
+test playlist 142/300
+test playlist 143/300
+test playlist 144/300
+test playlist 145/300
+test playlist 146/300
+test playlist 147/300
+test playlist 148/300
+test playlist 149/300test playlist 150/300
+
+test playlist 151/300
+test playlist 152/300
+test playlist 153/300
+test playlist 154/300test playlist 155/300
+
+test playlist 156/300
+test playlist 157/300
+test playlist 158/300
+test playlist 159/300
+test playlist 160/300
+test playlist 161/300
+test playlist 162/300
+test playlist 163/300
+test playlist 164/300
+test playlist 165/300
+test playlist 166/300
+test playlist 167/300
+test playlist 168/300
+test playlist 169/300
+test playlist 170/300
+test playlist 171/300
+test playlist 172/300
+test playlist 173/300
+test playlist 174/300
+test playlist 175/300
+test playlist 176/300
+test playlist 177/300
+test playlist 178/300
+test playlist 179/300
+test playlist 180/300
+test playlist 181/300
+test playlist 182/300
+test playlist 183/300
+test playlist 184/300
+test playlist 185/300
+test playlist 186/300
+test playlist 187/300
+test playlist 188/300
+test playlist 189/300
+test playlist 190/300
+test playlist 191/300
+test playlist 192/300
+test playlist 193/300test playlist 194/300
+
+test playlist 195/300
+test playlist 196/300
+test playlist 197/300
+test playlist 198/300
+test playlist 199/300
+test playlist 200/300
+test playlist 201/300
+test playlist 202/300
+test playlist 203/300
+test playlist 204/300
+test playlist 205/300
+test playlist 206/300
+test playlist 207/300test playlist 208/300
+
+test playlist 209/300
+test playlist 210/300
+test playlist 211/300
+test playlist 212/300
+test playlist 213/300
+test playlist 214/300
+test playlist 215/300
+test playlist 216/300
+test playlist 217/300test playlist 218/300
+
+test playlist 219/300
+test playlist 220/300
+test playlist 221/300
+test playlist 222/300
+test playlist 223/300
+test playlist 224/300
+test playlist 225/300
+test playlist 226/300
+test playlist 227/300
+test playlist 228/300
+test playlist 229/300
+test playlist 230/300
+test playlist 231/300test playlist 232/300
+
+test playlist 233/300
+test playlist 234/300
+test playlist 235/300
+test playlist 236/300
+test playlist 237/300
+test playlist 238/300
+test playlist 239/300
+test playlist 240/300
+test playlist 241/300
+test playlist 242/300
+test playlist 243/300test playlist 244/300
+
+test playlist 245/300
+test playlist 246/300
+test playlist 247/300
+test playlist 248/300
+test playlist 249/300
+test playlist 250/300
+test playlist 251/300
+test playlist 252/300
+test playlist 253/300
+test playlist 254/300
+test playlist 255/300
+test playlist 256/300
+test playlist 257/300
+test playlist 258/300
+test playlist 259/300
+test playlist 260/300
+test playlist 261/300
+test playlist 262/300
+test playlist 263/300test playlist 264/300
+
+test playlist 265/300
+test playlist 266/300
+test playlist 267/300
+test playlist 268/300
+test playlist 269/300
+test playlist 270/300
+test playlist 271/300
+test playlist 272/300
+test playlist 273/300
+test playlist 274/300
+test playlist 275/300
+test playlist 276/300
+test playlist 277/300
+test playlist 278/300
+test playlist 279/300
+test playlist 280/300
+test playlist 281/300
+test playlist 282/300
+test playlist 283/300
+test playlist 284/300
+test playlist 285/300
+test playlist 286/300
+test playlist 287/300
+test playlist 288/300
+test playlist 289/300
+test playlist 290/300
+test playlist 291/300
+test playlist 292/300
+test playlist 293/300
+test playlist 294/300
+test playlist 295/300
+test playlist 296/300
+test playlist 297/300
+test playlist 298/300
+test playlist 299/300
+test playlist 300/300
+Round 2/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.440
+Method: Popularity - Recall@5: 0.574
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.367
+Method: Co-occurence - Recall@5: 0.524
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.408
+Method: PoissonEmb - Recall@5: 0.601
+test playlist 1/300
+test playlist 2/300
+test playlist 3/300
+test playlist 4/300
+test playlist 5/300
+test playlist 6/300
+test playlist 7/300test playlist 8/300
+
+test playlist 9/300
+test playlist 10/300
+test playlist 11/300
+test playlist 12/300
+test playlist 13/300
+test playlist 14/300
+test playlist 15/300test playlist 16/300test playlist 17/300
+
+
+test playlist 18/300
+test playlist 19/300
+test playlist 20/300
+test playlist 21/300
+test playlist 22/300
+test playlist 23/300test playlist 24/300
+
+test playlist 25/300
+test playlist 26/300
+test playlist 27/300
+test playlist 28/300
+test playlist 29/300
+test playlist 30/300test playlist 31/300
+
+test playlist 32/300
+test playlist 33/300
+test playlist 34/300
+test playlist 35/300
+test playlist 36/300
+test playlist 37/300
+test playlist 38/300
+test playlist 39/300
+test playlist 40/300
+test playlist 41/300
+test playlist 42/300
+test playlist 43/300
+test playlist 44/300
+test playlist 45/300
+test playlist 46/300
+test playlist 47/300
+test playlist 48/300
+test playlist 49/300
+test playlist 50/300
+test playlist 51/300
+test playlist 52/300
+test playlist 53/300
+test playlist 54/300
+test playlist 55/300
+test playlist 56/300
+test playlist 57/300
+test playlist 58/300
+test playlist 59/300test playlist 60/300
+test playlist 61/300
+
+test playlist 62/300
+test playlist 63/300
+test playlist 64/300
+test playlist 65/300test playlist 66/300
+
+test playlist 67/300
+test playlist 68/300
+test playlist 69/300
+test playlist 70/300
+test playlist 71/300
+test playlist 72/300
+test playlist 73/300
+test playlist 74/300
+test playlist 75/300
+test playlist 76/300
+test playlist 77/300
+test playlist 78/300
+test playlist 79/300
+test playlist 80/300
+test playlist 81/300
+test playlist 82/300
+test playlist 83/300
+test playlist 84/300
+test playlist 85/300
+test playlist 86/300
+test playlist 87/300
+test playlist 88/300
+test playlist 89/300test playlist 90/300
+
+test playlist 91/300
+test playlist 92/300
+test playlist 93/300
+test playlist 94/300
+test playlist 95/300test playlist 96/300test playlist 97/300
+
+
+test playlist 98/300
+test playlist 99/300
+test playlist 100/300test playlist 101/300
+
+test playlist 102/300
+test playlist 103/300
+test playlist 104/300test playlist 105/300
+test playlist 106/300
+
+test playlist 107/300
+test playlist 108/300
+test playlist 109/300
+test playlist 110/300
+test playlist 111/300
+test playlist 112/300
+test playlist 113/300
+test playlist 114/300
+test playlist 115/300
+test playlist 116/300
+test playlist 117/300
+test playlist 118/300
+test playlist 119/300
+test playlist 120/300
+test playlist 121/300
+test playlist 122/300
+test playlist 123/300
+test playlist 124/300test playlist 125/300
+
+test playlist 126/300
+test playlist 127/300
+test playlist 128/300test playlist 129/300
+
+test playlist 130/300
+test playlist 131/300test playlist 132/300
+
+test playlist 133/300
+test playlist 134/300
+test playlist 135/300
+test playlist 136/300test playlist 137/300
+test playlist 138/300
+
+test playlist 139/300
+test playlist 140/300test playlist 141/300
+
+test playlist 142/300
+test playlist 143/300
+test playlist 144/300
+test playlist 145/300
+test playlist 146/300
+test playlist 147/300
+test playlist 148/300
+test playlist 149/300
+test playlist 150/300
+test playlist 151/300
+test playlist 152/300
+test playlist 153/300
+test playlist 154/300
+test playlist 155/300
+test playlist 156/300
+test playlist 157/300
+test playlist 158/300
+test playlist 159/300
+test playlist 160/300
+test playlist 161/300test playlist 162/300
+
+test playlist 163/300test playlist 164/300
+
+test playlist 165/300
+test playlist 166/300test playlist 167/300
+
+test playlist 168/300
+test playlist 169/300test playlist 170/300
+
+test playlist 171/300
+test playlist 172/300
+test playlist 173/300
+test playlist 174/300
+test playlist 175/300
+test playlist 176/300
+test playlist 177/300
+test playlist 178/300
+test playlist 179/300
+test playlist 180/300
+test playlist 181/300
+test playlist 182/300test playlist 183/300
+
+test playlist 184/300
+test playlist 185/300
+test playlist 186/300
+test playlist 187/300
+test playlist 188/300
+test playlist 189/300
+test playlist 190/300
+test playlist 191/300
+test playlist 192/300
+test playlist 193/300
+test playlist 194/300
+test playlist 195/300test playlist 196/300
+
+test playlist 197/300
+test playlist 198/300
+test playlist 199/300
+test playlist 200/300
+test playlist 201/300
+test playlist 202/300
+test playlist 203/300test playlist 204/300
+
+test playlist 205/300
+test playlist 206/300
+test playlist 207/300
+test playlist 208/300
+test playlist 209/300
+test playlist 210/300
+test playlist 211/300
+test playlist 212/300
+test playlist 213/300
+test playlist 214/300
+test playlist 215/300test playlist 216/300test playlist 217/300
+
+
+test playlist 218/300
+test playlist 219/300
+test playlist 220/300
+test playlist 221/300
+test playlist 222/300
+test playlist 223/300
+test playlist 224/300test playlist 225/300
+
+test playlist 226/300
+test playlist 227/300test playlist 228/300
+
+test playlist 229/300
+test playlist 230/300
+test playlist 231/300
+test playlist 232/300
+test playlist 233/300
+test playlist 234/300
+test playlist 235/300
+test playlist 236/300
+test playlist 237/300
+test playlist 238/300
+test playlist 239/300
+test playlist 240/300
+test playlist 241/300test playlist 242/300
+
+test playlist 243/300
+test playlist 244/300
+test playlist 245/300
+test playlist 246/300test playlist 247/300
+
+test playlist 248/300test playlist 249/300
+
+test playlist 250/300test playlist 251/300
+
+test playlist 252/300
+test playlist 253/300
+test playlist 254/300
+test playlist 255/300
+test playlist 256/300
+test playlist 257/300
+test playlist 258/300
+test playlist 259/300
+test playlist 260/300
+test playlist 261/300
+test playlist 262/300
+test playlist 263/300test playlist 264/300
+
+test playlist 265/300
+test playlist 266/300
+test playlist 267/300
+test playlist 268/300
+test playlist 269/300
+test playlist 270/300
+test playlist 271/300
+test playlist 272/300
+test playlist 273/300
+test playlist 274/300
+test playlist 275/300
+test playlist 276/300
+test playlist 277/300
+test playlist 278/300test playlist 279/300
+
+test playlist 280/300
+test playlist 281/300
+test playlist 282/300
+test playlist 283/300
+test playlist 284/300
+test playlist 285/300
+test playlist 286/300
+test playlist 287/300
+test playlist 288/300
+test playlist 289/300
+test playlist 290/300
+test playlist 291/300
+test playlist 292/300
+test playlist 293/300
+test playlist 294/300
+test playlist 295/300
+test playlist 296/300
+test playlist 297/300
+test playlist 298/300
+test playlist 299/300
+test playlist 300/300
+Round 3/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.437
+Method: Popularity - Recall@5: 0.575
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.365
+Method: Co-occurence - Recall@5: 0.524
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.408
+Method: PoissonEmb - Recall@5: 0.600
+test playlist 1/300
+test playlist 2/300
+test playlist 3/300
+test playlist 4/300
+test playlist 5/300
+test playlist 6/300
+test playlist 7/300
+test playlist 8/300
+test playlist 9/300
+test playlist 10/300
+test playlist 11/300
+test playlist 12/300
+test playlist 13/300
+test playlist 14/300
+test playlist 15/300
+test playlist 16/300
+test playlist 17/300
+test playlist 18/300
+test playlist 19/300
+test playlist 20/300
+test playlist 21/300
+test playlist 22/300
+test playlist 23/300test playlist 24/300
+
+test playlist 25/300
+test playlist 26/300
+test playlist 27/300test playlist 28/300
+
+test playlist 29/300
+test playlist 30/300
+test playlist 31/300
+test playlist 32/300
+test playlist 33/300
+test playlist 34/300
+test playlist 35/300
+test playlist 36/300
+test playlist 37/300
+test playlist 38/300
+test playlist 39/300
+test playlist 40/300
+test playlist 41/300
+test playlist 42/300
+test playlist 43/300test playlist 44/300
+
+test playlist 45/300
+test playlist 46/300
+test playlist 47/300
+test playlist 48/300
+test playlist 49/300test playlist 50/300
+
+test playlist 51/300
+test playlist 52/300
+test playlist 53/300
+test playlist 54/300
+test playlist 55/300
+test playlist 56/300
+test playlist 57/300
+test playlist 58/300
+test playlist 59/300
+test playlist 60/300
+test playlist 61/300
+test playlist 62/300
+test playlist 63/300
+test playlist 64/300
+test playlist 65/300
+test playlist 66/300
+test playlist 67/300
+test playlist 68/300
+test playlist 69/300
+test playlist 70/300
+test playlist 71/300
+test playlist 72/300
+test playlist 73/300
+test playlist 74/300
+test playlist 75/300
+test playlist 76/300
+test playlist 77/300
+test playlist 78/300
+test playlist 79/300
+test playlist 80/300
+test playlist 81/300
+test playlist 82/300
+test playlist 83/300
+test playlist 84/300
+test playlist 85/300
+test playlist 86/300
+test playlist 87/300
+test playlist 88/300
+test playlist 89/300
+test playlist 90/300
+test playlist 91/300
+test playlist 92/300
+test playlist 93/300
+test playlist 94/300
+test playlist 95/300test playlist 96/300
+
+test playlist 97/300
+test playlist 98/300
+test playlist 99/300
+test playlist 100/300
+test playlist 101/300
+test playlist 102/300
+test playlist 103/300
+test playlist 104/300
+test playlist 105/300
+test playlist 106/300test playlist 107/300
+
+test playlist 108/300
+test playlist 109/300
+test playlist 110/300
+test playlist 111/300
+test playlist 112/300
+test playlist 113/300
+test playlist 114/300
+test playlist 115/300
+test playlist 116/300
+test playlist 117/300
+test playlist 118/300
+test playlist 119/300
+test playlist 120/300
+test playlist 121/300
+test playlist 122/300
+test playlist 123/300
+test playlist 124/300
+test playlist 125/300
+test playlist 126/300test playlist 127/300
+
+test playlist 128/300
+test playlist 129/300
+test playlist 130/300
+test playlist 131/300
+test playlist 132/300
+test playlist 133/300
+test playlist 134/300
+test playlist 135/300
+test playlist 136/300
+test playlist 137/300test playlist 138/300
+
+test playlist 139/300
+test playlist 140/300
+test playlist 141/300
+test playlist 142/300test playlist 143/300
+
+test playlist 144/300
+test playlist 145/300
+test playlist 146/300
+test playlist 147/300
+test playlist 148/300
+test playlist 149/300
+test playlist 150/300
+test playlist 151/300
+test playlist 152/300
+test playlist 153/300
+test playlist 154/300
+test playlist 155/300
+test playlist 156/300
+test playlist 157/300
+test playlist 158/300
+test playlist 159/300
+test playlist 160/300
+test playlist 161/300
+test playlist 162/300
+test playlist 163/300
+test playlist 164/300
+test playlist 165/300
+test playlist 166/300
+test playlist 167/300
+test playlist 168/300
+test playlist 169/300
+test playlist 170/300
+test playlist 171/300
+test playlist 172/300
+test playlist 173/300test playlist 174/300
+
+test playlist 175/300
+test playlist 176/300test playlist 177/300
+
+test playlist 178/300
+test playlist 179/300
+test playlist 180/300test playlist 181/300
+
+test playlist 182/300
+test playlist 183/300
+test playlist 184/300
+test playlist 185/300
+test playlist 186/300
+test playlist 187/300
+test playlist 188/300
+test playlist 189/300
+test playlist 190/300
+test playlist 191/300
+test playlist 192/300
+test playlist 193/300
+test playlist 194/300test playlist 195/300
+
+test playlist 196/300
+test playlist 197/300
+test playlist 198/300
+test playlist 199/300
+test playlist 200/300
+test playlist 201/300
+test playlist 202/300
+test playlist 203/300
+test playlist 204/300
+test playlist 205/300
+test playlist 206/300
+test playlist 207/300
+test playlist 208/300
+test playlist 209/300
+test playlist 210/300
+test playlist 211/300
+test playlist 212/300
+test playlist 213/300
+test playlist 214/300
+test playlist 215/300
+test playlist 216/300
+test playlist 217/300
+test playlist 218/300
+test playlist 219/300
+test playlist 220/300test playlist 221/300
+
+test playlist 222/300
+test playlist 223/300
+test playlist 224/300
+test playlist 225/300
+test playlist 226/300
+test playlist 227/300
+test playlist 228/300
+test playlist 229/300
+test playlist 230/300
+test playlist 231/300
+test playlist 232/300
+test playlist 233/300
+test playlist 234/300
+test playlist 235/300
+test playlist 236/300
+test playlist 237/300
+test playlist 238/300
+test playlist 239/300
+test playlist 240/300test playlist 241/300
+
+test playlist 242/300test playlist 243/300
+
+test playlist 244/300
+test playlist 245/300test playlist 246/300
+
+test playlist 247/300
+test playlist 248/300
+test playlist 249/300
+test playlist 250/300
+test playlist 251/300
+test playlist 252/300
+test playlist 253/300
+test playlist 254/300
+test playlist 255/300
+test playlist 256/300
+test playlist 257/300
+test playlist 258/300
+test playlist 259/300
+test playlist 260/300
+test playlist 261/300
+test playlist 262/300
+test playlist 263/300
+test playlist 264/300
+test playlist 265/300
+test playlist 266/300
+test playlist 267/300
+test playlist 268/300
+test playlist 269/300
+test playlist 270/300
+test playlist 271/300
+test playlist 272/300
+test playlist 273/300
+test playlist 274/300
+test playlist 275/300
+test playlist 276/300
+test playlist 277/300
+test playlist 278/300
+test playlist 279/300
+test playlist 280/300
+test playlist 281/300
+test playlist 282/300
+test playlist 283/300
+test playlist 284/300
+test playlist 285/300
+test playlist 286/300
+test playlist 287/300
+test playlist 288/300
+test playlist 289/300
+test playlist 290/300
+test playlist 291/300
+test playlist 292/300
+test playlist 293/300
+test playlist 294/300
+test playlist 295/300
+test playlist 296/300
+test playlist 297/300
+test playlist 298/300
+test playlist 299/300
+test playlist 300/300
+Round 4/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.439
+Method: Popularity - Recall@5: 0.575
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.365
+Method: Co-occurence - Recall@5: 0.520
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.409
+Method: PoissonEmb - Recall@5: 0.601
+test playlist 1/300
+test playlist 2/300
+test playlist 3/300
+test playlist 4/300
+test playlist 5/300
+test playlist 6/300
+test playlist 7/300
+test playlist 8/300
+test playlist 9/300
+test playlist 10/300
+test playlist 11/300test playlist 12/300
+test playlist 13/300
+
+test playlist 14/300
+test playlist 15/300
+test playlist 16/300
+test playlist 17/300
+test playlist 18/300
+test playlist 19/300
+test playlist 20/300
+test playlist 21/300
+test playlist 22/300
+test playlist 23/300
+test playlist 24/300
+test playlist 25/300
+test playlist 26/300
+test playlist 27/300
+test playlist 28/300test playlist 29/300
+
+test playlist 30/300
+test playlist 31/300
+test playlist 32/300
+test playlist 33/300
+test playlist 34/300
+test playlist 35/300
+test playlist 36/300
+test playlist 37/300
+test playlist 38/300
+test playlist 39/300
+test playlist 40/300
+test playlist 41/300
+test playlist 42/300
+test playlist 43/300
+test playlist 44/300
+test playlist 45/300
+test playlist 46/300
+test playlist 47/300
+test playlist 48/300
+test playlist 49/300
+test playlist 50/300
+test playlist 51/300
+test playlist 52/300
+test playlist 53/300
+test playlist 54/300
+test playlist 55/300
+test playlist 56/300
+test playlist 57/300
+test playlist 58/300test playlist 59/300
+
+test playlist 60/300
+test playlist 61/300
+test playlist 62/300
+test playlist 63/300
+test playlist 64/300
+test playlist 65/300
+test playlist 66/300
+test playlist 67/300
+test playlist 68/300
+test playlist 69/300
+test playlist 70/300
+test playlist 71/300
+test playlist 72/300
+test playlist 73/300
+test playlist 74/300
+test playlist 75/300test playlist 76/300
+
+test playlist 77/300
+test playlist 78/300
+test playlist 79/300
+test playlist 80/300
+test playlist 81/300
+test playlist 82/300
+test playlist 83/300
+test playlist 84/300test playlist 85/300
+
+test playlist 86/300
+test playlist 87/300
+test playlist 88/300
+test playlist 89/300
+test playlist 90/300test playlist 91/300
+
+test playlist 92/300test playlist 93/300
+
+test playlist 94/300
+test playlist 95/300
+test playlist 96/300
+test playlist 97/300
+test playlist 98/300test playlist 99/300
+test playlist 100/300
+
+test playlist 101/300
+test playlist 102/300
+test playlist 103/300
+test playlist 104/300
+test playlist 105/300
+test playlist 106/300
+test playlist 107/300
+test playlist 108/300
+test playlist 109/300
+test playlist 110/300
+test playlist 111/300
+test playlist 112/300test playlist 113/300
+
+test playlist 114/300
+test playlist 115/300
+test playlist 116/300
+test playlist 117/300
+test playlist 118/300
+test playlist 119/300
+test playlist 120/300
+test playlist 121/300
+test playlist 122/300
+test playlist 123/300
+test playlist 124/300
+test playlist 125/300
+test playlist 126/300
+test playlist 127/300
+test playlist 128/300
+test playlist 129/300
+test playlist 130/300
+test playlist 131/300test playlist 132/300
+
+test playlist 133/300
+test playlist 134/300
+test playlist 135/300
+test playlist 136/300
+test playlist 137/300
+test playlist 138/300
+test playlist 139/300
+test playlist 140/300
+test playlist 141/300
+test playlist 142/300
+test playlist 143/300
+test playlist 144/300
+test playlist 145/300
+test playlist 146/300
+test playlist 147/300
+test playlist 148/300
+test playlist 149/300
+test playlist 150/300
+test playlist 151/300
+test playlist 152/300
+test playlist 153/300
+test playlist 154/300
+test playlist 155/300
+test playlist 156/300
+test playlist 157/300
+test playlist 158/300
+test playlist 159/300
+test playlist 160/300test playlist 161/300
+
+test playlist 162/300
+test playlist 163/300
+test playlist 164/300
+test playlist 165/300test playlist 166/300
+
+test playlist 167/300
+test playlist 168/300
+test playlist 169/300
+test playlist 170/300
+test playlist 171/300test playlist 172/300
+
+test playlist 173/300
+test playlist 174/300
+test playlist 175/300
+test playlist 176/300
+test playlist 177/300
+test playlist 178/300
+test playlist 179/300
+test playlist 180/300
+test playlist 181/300
+test playlist 182/300test playlist 183/300
+
+test playlist 184/300
+test playlist 185/300
+test playlist 186/300
+test playlist 187/300
+test playlist 188/300
+test playlist 189/300
+test playlist 190/300
+test playlist 191/300
+test playlist 192/300
+test playlist 193/300
+test playlist 194/300
+test playlist 195/300
+test playlist 196/300
+test playlist 197/300
+test playlist 198/300
+test playlist 199/300
+test playlist 200/300
+test playlist 201/300
+test playlist 202/300
+test playlist 203/300
+test playlist 204/300
+test playlist 205/300
+test playlist 206/300
+test playlist 207/300
+test playlist 208/300
+test playlist 209/300
+test playlist 210/300
+test playlist 211/300
+test playlist 212/300
+test playlist 213/300
+test playlist 214/300
+test playlist 215/300
+test playlist 216/300
+test playlist 217/300
+test playlist 218/300
+test playlist 219/300
+test playlist 220/300
+test playlist 221/300
+test playlist 222/300
+test playlist 223/300
+test playlist 224/300
+test playlist 225/300
+test playlist 226/300
+test playlist 227/300
+test playlist 228/300
+test playlist 229/300
+test playlist 230/300
+test playlist 231/300
+test playlist 232/300
+test playlist 233/300
+test playlist 234/300
+test playlist 235/300
+test playlist 236/300
+test playlist 237/300
+test playlist 238/300test playlist 239/300
+
+test playlist 240/300
+test playlist 241/300
+test playlist 242/300
+test playlist 243/300
+test playlist 244/300
+test playlist 245/300
+test playlist 246/300
+test playlist 247/300
+test playlist 248/300
+test playlist 249/300
+test playlist 250/300
+test playlist 251/300
+test playlist 252/300
+test playlist 253/300
+test playlist 254/300
+test playlist 255/300
+test playlist 256/300
+test playlist 257/300
+test playlist 258/300
+test playlist 259/300
+test playlist 260/300test playlist 261/300
+
+test playlist 262/300
+test playlist 263/300
+test playlist 264/300
+test playlist 265/300
+test playlist 266/300
+test playlist 267/300
+test playlist 268/300
+test playlist 269/300
+test playlist 270/300
+test playlist 271/300
+test playlist 272/300
+test playlist 273/300
+test playlist 274/300
+test playlist 275/300test playlist 276/300
+
+test playlist 277/300
+test playlist 278/300
+test playlist 279/300
+test playlist 280/300
+test playlist 281/300test playlist 282/300
+
+test playlist 283/300
+test playlist 284/300
+test playlist 285/300
+test playlist 286/300
+test playlist 287/300
+test playlist 288/300
+test playlist 289/300
+test playlist 290/300
+test playlist 291/300
+test playlist 292/300
+test playlist 293/300
+test playlist 294/300test playlist 295/300
+
+test playlist 296/300
+test playlist 297/300
+test playlist 298/300
+test playlist 299/300
+test playlist 300/300
+Round 5/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.438
+Method: Popularity - Recall@5: 0.576
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.364
+Method: Co-occurence - Recall@5: 0.522
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.406
+Method: PoissonEmb - Recall@5: 0.603
+test playlist 1/300
+test playlist 2/300
+test playlist 3/300
+test playlist 4/300test playlist 5/300
+
+test playlist 6/300
+test playlist 7/300test playlist 8/300
+
+test playlist 9/300
+test playlist 10/300
+test playlist 11/300test playlist 12/300
+
+test playlist 13/300
+test playlist 14/300
+test playlist 15/300
+test playlist 16/300
+test playlist 17/300
+test playlist 18/300
+test playlist 19/300
+test playlist 20/300
+test playlist 21/300
+test playlist 22/300
+test playlist 23/300test playlist 24/300
+
+test playlist 25/300
+test playlist 26/300
+test playlist 27/300
+test playlist 28/300
+test playlist 29/300
+test playlist 30/300
+test playlist 31/300
+test playlist 32/300test playlist 33/300
+
+test playlist 34/300
+test playlist 35/300test playlist 36/300
+
+test playlist 37/300
+test playlist 38/300
+test playlist 39/300
+test playlist 40/300
+test playlist 41/300
+test playlist 42/300
+test playlist 43/300
+test playlist 44/300
+test playlist 45/300
+test playlist 46/300
+test playlist 47/300
+test playlist 48/300
+test playlist 49/300
+test playlist 50/300
+test playlist 51/300
+test playlist 52/300
+test playlist 53/300
+test playlist 54/300
+test playlist 55/300
+test playlist 56/300
+test playlist 57/300
+test playlist 58/300
+test playlist 59/300
+test playlist 60/300
+test playlist 61/300
+test playlist 62/300
+test playlist 63/300
+test playlist 64/300
+test playlist 65/300
+test playlist 66/300
+test playlist 67/300
+test playlist 68/300test playlist 69/300
+
+test playlist 70/300
+test playlist 71/300
+test playlist 72/300
+test playlist 73/300
+test playlist 74/300
+test playlist 75/300
+test playlist 76/300
+test playlist 77/300
+test playlist 78/300
+test playlist 79/300
+test playlist 80/300
+test playlist 81/300
+test playlist 82/300
+test playlist 83/300
+test playlist 84/300
+test playlist 85/300
+test playlist 86/300test playlist 87/300
+test playlist 88/300
+
+test playlist 89/300
+test playlist 90/300
+test playlist 91/300
+test playlist 92/300
+test playlist 93/300
+test playlist 94/300
+test playlist 95/300
+test playlist 96/300
+test playlist 97/300
+test playlist 98/300
+test playlist 99/300
+test playlist 100/300
+test playlist 101/300
+test playlist 102/300
+test playlist 103/300
+test playlist 104/300
+test playlist 105/300test playlist 106/300
+
+test playlist 107/300
+test playlist 108/300
+test playlist 109/300
+test playlist 110/300
+test playlist 111/300
+test playlist 112/300
+test playlist 113/300
+test playlist 114/300
+test playlist 115/300
+test playlist 116/300
+test playlist 117/300
+test playlist 118/300
+test playlist 119/300
+test playlist 120/300
+test playlist 121/300
+test playlist 122/300
+test playlist 123/300
+test playlist 124/300
+test playlist 125/300
+test playlist 126/300
+test playlist 127/300
+test playlist 128/300
+test playlist 129/300
+test playlist 130/300
+test playlist 131/300
+test playlist 132/300
+test playlist 133/300
+test playlist 134/300
+test playlist 135/300
+test playlist 136/300test playlist 137/300
+
+test playlist 138/300
+test playlist 139/300
+test playlist 140/300
+test playlist 141/300
+test playlist 142/300
+test playlist 143/300
+test playlist 144/300
+test playlist 145/300
+test playlist 146/300
+test playlist 147/300
+test playlist 148/300
+test playlist 149/300
+test playlist 150/300
+test playlist 151/300
+test playlist 152/300
+test playlist 153/300
+test playlist 154/300
+test playlist 155/300test playlist 156/300
+
+test playlist 157/300
+test playlist 158/300
+test playlist 159/300
+test playlist 160/300
+test playlist 161/300
+test playlist 162/300
+test playlist 163/300
+test playlist 164/300
+test playlist 165/300
+test playlist 166/300
+test playlist 167/300
+test playlist 168/300
+test playlist 169/300
+test playlist 170/300
+test playlist 171/300
+test playlist 172/300
+test playlist 173/300
+test playlist 174/300
+test playlist 175/300test playlist 176/300test playlist 177/300
+
+
+test playlist 178/300
+test playlist 179/300
+test playlist 180/300
+test playlist 181/300
+test playlist 182/300
+test playlist 183/300
+test playlist 184/300
+test playlist 185/300
+test playlist 186/300
+test playlist 187/300
+test playlist 188/300
+test playlist 189/300
+test playlist 190/300
+test playlist 191/300
+test playlist 192/300
+test playlist 193/300
+test playlist 194/300
+test playlist 195/300
+test playlist 196/300
+test playlist 197/300
+test playlist 198/300
+test playlist 199/300
+test playlist 200/300
+test playlist 201/300
+test playlist 202/300
+test playlist 203/300
+test playlist 204/300
+test playlist 205/300
+test playlist 206/300
+test playlist 207/300
+test playlist 208/300
+test playlist 209/300
+test playlist 210/300test playlist 211/300
+
+test playlist 212/300
+test playlist 213/300
+test playlist 214/300
+test playlist 215/300
+test playlist 216/300
+test playlist 217/300
+test playlist 218/300test playlist 219/300
+
+test playlist 220/300
+test playlist 221/300
+test playlist 222/300
+test playlist 223/300
+test playlist 224/300
+test playlist 225/300
+test playlist 226/300
+test playlist 227/300
+test playlist 228/300
+test playlist 229/300
+test playlist 230/300
+test playlist 231/300
+test playlist 232/300
+test playlist 233/300
+test playlist 234/300
+test playlist 235/300
+test playlist 236/300
+test playlist 237/300
+test playlist 238/300
+test playlist 239/300
+test playlist 240/300
+test playlist 241/300test playlist 242/300
+
+test playlist 243/300test playlist 244/300
+test playlist 245/300
+
+test playlist 246/300
+test playlist 247/300
+test playlist 248/300
+test playlist 249/300test playlist 250/300
+
+test playlist 251/300
+test playlist 252/300
+test playlist 253/300
+test playlist 254/300test playlist 255/300
+
+test playlist 256/300
+test playlist 257/300
+test playlist 258/300
+test playlist 259/300
+test playlist 260/300
+test playlist 261/300
+test playlist 262/300test playlist 263/300
+
+test playlist 264/300test playlist 265/300
+
+test playlist 266/300
+test playlist 267/300test playlist 268/300
+
+test playlist 269/300
+test playlist 270/300test playlist 271/300
+
+test playlist 272/300
+test playlist 273/300
+test playlist 274/300
+test playlist 275/300
+test playlist 276/300
+test playlist 277/300test playlist 278/300
+
+test playlist 279/300
+test playlist 280/300
+test playlist 281/300
+test playlist 282/300
+test playlist 283/300
+test playlist 284/300
+test playlist 285/300
+test playlist 286/300
+test playlist 287/300
+test playlist 288/300
+test playlist 289/300
+test playlist 290/300test playlist 291/300
+
+test playlist 292/300
+test playlist 293/300
+test playlist 294/300
+test playlist 295/300
+test playlist 296/300
+test playlist 297/300
+test playlist 298/300
+test playlist 299/300
+test playlist 300/300
+Round 6/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.440
+Method: Popularity - Recall@5: 0.575
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.367
+Method: Co-occurence - Recall@5: 0.524
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.407
+Method: PoissonEmb - Recall@5: 0.599
+test playlist 1/300test playlist 2/300
+test playlist 3/300
+
+test playlist 4/300
+test playlist 5/300
+test playlist 6/300
+test playlist 7/300
+test playlist 8/300
+test playlist 9/300
+test playlist 10/300
+test playlist 11/300
+test playlist 12/300
+test playlist 13/300
+test playlist 14/300
+test playlist 15/300test playlist 16/300
+
+test playlist 17/300
+test playlist 18/300
+test playlist 19/300
+test playlist 20/300
+test playlist 21/300
+test playlist 22/300
+test playlist 23/300
+test playlist 24/300
+test playlist 25/300
+test playlist 26/300
+test playlist 27/300
+test playlist 28/300
+test playlist 29/300
+test playlist 30/300
+test playlist 31/300
+test playlist 32/300
+test playlist 33/300test playlist 34/300
+
+test playlist 35/300
+test playlist 36/300
+test playlist 37/300
+test playlist 38/300
+test playlist 39/300test playlist 40/300
+
+test playlist 41/300
+test playlist 42/300
+test playlist 43/300
+test playlist 44/300
+test playlist 45/300
+test playlist 46/300
+test playlist 47/300
+test playlist 48/300
+test playlist 49/300
+test playlist 50/300
+test playlist 51/300
+test playlist 52/300
+test playlist 53/300
+test playlist 54/300
+test playlist 55/300
+test playlist 56/300
+test playlist 57/300
+test playlist 58/300
+test playlist 59/300
+test playlist 60/300test playlist 61/300
+test playlist 62/300
+
+test playlist 63/300
+test playlist 64/300
+test playlist 65/300
+test playlist 66/300
+test playlist 67/300
+test playlist 68/300
+test playlist 69/300
+test playlist 70/300
+test playlist 71/300
+test playlist 72/300
+test playlist 73/300
+test playlist 74/300
+test playlist 75/300
+test playlist 76/300
+test playlist 77/300
+test playlist 78/300test playlist 79/300
+
+test playlist 80/300
+test playlist 81/300
+test playlist 82/300
+test playlist 83/300
+test playlist 84/300test playlist 85/300
+
+test playlist 86/300
+test playlist 87/300
+test playlist 88/300
+test playlist 89/300test playlist 90/300
+
+test playlist 91/300
+test playlist 92/300
+test playlist 93/300
+test playlist 94/300
+test playlist 95/300
+test playlist 96/300
+test playlist 97/300test playlist 98/300
+
+test playlist 99/300
+test playlist 100/300
+test playlist 101/300
+test playlist 102/300
+test playlist 103/300
+test playlist 104/300
+test playlist 105/300
+test playlist 106/300
+test playlist 107/300
+test playlist 108/300
+test playlist 109/300
+test playlist 110/300
+test playlist 111/300
+test playlist 112/300
+test playlist 113/300test playlist 114/300
+
+test playlist 115/300
+test playlist 116/300
+test playlist 117/300
+test playlist 118/300
+test playlist 119/300
+test playlist 120/300
+test playlist 121/300
+test playlist 122/300
+test playlist 123/300
+test playlist 124/300
+test playlist 125/300
+test playlist 126/300
+test playlist 127/300test playlist 128/300
+
+test playlist 129/300
+test playlist 130/300
+test playlist 131/300
+test playlist 132/300test playlist 133/300test playlist 134/300
+
+test playlist 135/300
+
+test playlist 136/300test playlist 137/300
+
+test playlist 138/300
+test playlist 139/300
+test playlist 140/300
+test playlist 141/300
+test playlist 142/300
+test playlist 143/300
+test playlist 144/300test playlist 145/300
+
+test playlist 146/300
+test playlist 147/300
+test playlist 148/300
+test playlist 149/300
+test playlist 150/300
+test playlist 151/300
+test playlist 152/300
+test playlist 153/300
+test playlist 154/300
+test playlist 155/300
+test playlist 156/300
+test playlist 157/300
+test playlist 158/300test playlist 159/300test playlist 160/300
+
+
+test playlist 161/300
+test playlist 162/300
+test playlist 163/300
+test playlist 164/300
+test playlist 165/300
+test playlist 166/300
+test playlist 167/300
+test playlist 168/300
+test playlist 169/300
+test playlist 170/300
+test playlist 171/300
+test playlist 172/300
+test playlist 173/300
+test playlist 174/300
+test playlist 175/300
+test playlist 176/300
+test playlist 177/300
+test playlist 178/300
+test playlist 179/300
+test playlist 180/300
+test playlist 181/300
+test playlist 182/300test playlist 183/300
+
+test playlist 184/300test playlist 185/300
+
+test playlist 186/300
+test playlist 187/300
+test playlist 188/300
+test playlist 189/300
+test playlist 190/300
+test playlist 191/300
+test playlist 192/300
+test playlist 193/300
+test playlist 194/300
+test playlist 195/300test playlist 196/300
+test playlist 197/300
+
+test playlist 198/300
+test playlist 199/300test playlist 200/300
+test playlist 201/300
+
+test playlist 202/300
+test playlist 203/300test playlist 204/300
+
+test playlist 205/300
+test playlist 206/300
+test playlist 207/300
+test playlist 208/300test playlist 209/300
+
+test playlist 210/300
+test playlist 211/300
+test playlist 212/300
+test playlist 213/300
+test playlist 214/300test playlist 215/300
+
+test playlist 216/300
+test playlist 217/300
+test playlist 218/300test playlist 219/300
+
+test playlist 220/300
+test playlist 221/300
+test playlist 222/300
+test playlist 223/300
+test playlist 224/300
+test playlist 225/300
+test playlist 226/300test playlist 227/300
+test playlist 228/300
+test playlist 229/300
+
+test playlist 230/300
+test playlist 231/300
+test playlist 232/300test playlist 233/300
+
+test playlist 234/300
+test playlist 235/300
+test playlist 236/300
+test playlist 237/300
+test playlist 238/300test playlist 239/300
+
+test playlist 240/300
+test playlist 241/300test playlist 242/300
+test playlist 243/300
+
+test playlist 244/300
+test playlist 245/300
+test playlist 246/300
+test playlist 247/300
+test playlist 248/300
+test playlist 249/300
+test playlist 250/300
+test playlist 251/300test playlist 252/300
+
+test playlist 253/300
+test playlist 254/300
+test playlist 255/300
+test playlist 256/300
+test playlist 257/300
+test playlist 258/300
+test playlist 259/300
+test playlist 260/300test playlist 261/300
+
+test playlist 262/300
+test playlist 263/300
+test playlist 264/300
+test playlist 265/300
+test playlist 266/300
+test playlist 267/300
+test playlist 268/300
+test playlist 269/300
+test playlist 270/300
+test playlist 271/300
+test playlist 272/300
+test playlist 273/300
+test playlist 274/300
+test playlist 275/300
+test playlist 276/300
+test playlist 277/300test playlist 278/300
+
+test playlist 279/300
+test playlist 280/300
+test playlist 281/300
+test playlist 282/300
+test playlist 283/300
+test playlist 284/300
+test playlist 285/300
+test playlist 286/300
+test playlist 287/300
+test playlist 288/300
+test playlist 289/300
+test playlist 290/300
+test playlist 291/300
+test playlist 292/300
+test playlist 293/300
+test playlist 294/300
+test playlist 295/300
+test playlist 296/300
+test playlist 297/300
+test playlist 298/300
+test playlist 299/300
+test playlist 300/300
+Round 7/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.441
+Method: Popularity - Recall@5: 0.576
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.363
+Method: Co-occurence - Recall@5: 0.526
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.409
+Method: PoissonEmb - Recall@5: 0.597
+test playlist 1/300
+test playlist 2/300
+test playlist 3/300
+test playlist 4/300
+test playlist 5/300
+test playlist 6/300test playlist 7/300
+
+test playlist 8/300
+test playlist 9/300
+test playlist 10/300
+test playlist 11/300test playlist 12/300
+
+test playlist 13/300
+test playlist 14/300
+test playlist 15/300
+test playlist 16/300test playlist 17/300
+
+test playlist 18/300
+test playlist 19/300
+test playlist 20/300
+test playlist 21/300
+test playlist 22/300
+test playlist 23/300
+test playlist 24/300
+test playlist 25/300
+test playlist 26/300
+test playlist 27/300
+test playlist 28/300
+test playlist 29/300
+test playlist 30/300
+test playlist 31/300
+test playlist 32/300
+test playlist 33/300
+test playlist 34/300
+test playlist 35/300
+test playlist 36/300
+test playlist 37/300
+test playlist 38/300
+test playlist 39/300
+test playlist 40/300
+test playlist 41/300
+test playlist 42/300
+test playlist 43/300test playlist 44/300
+
+test playlist 45/300
+test playlist 46/300
+test playlist 47/300
+test playlist 48/300
+test playlist 49/300
+test playlist 50/300
+test playlist 51/300
+test playlist 52/300
+test playlist 53/300
+test playlist 54/300
+test playlist 55/300
+test playlist 56/300
+test playlist 57/300
+test playlist 58/300
+test playlist 59/300
+test playlist 60/300
+test playlist 61/300
+test playlist 62/300
+test playlist 63/300
+test playlist 64/300
+test playlist 65/300
+test playlist 66/300
+test playlist 67/300
+test playlist 68/300
+test playlist 69/300
+test playlist 70/300test playlist 71/300
+test playlist 72/300
+
+test playlist 73/300
+test playlist 74/300
+test playlist 75/300
+test playlist 76/300
+test playlist 77/300
+test playlist 78/300
+test playlist 79/300
+test playlist 80/300
+test playlist 81/300
+test playlist 82/300test playlist 83/300
+
+test playlist 84/300
+test playlist 85/300
+test playlist 86/300
+test playlist 87/300
+test playlist 88/300
+test playlist 89/300
+test playlist 90/300
+test playlist 91/300
+test playlist 92/300
+test playlist 93/300
+test playlist 94/300
+test playlist 95/300
+test playlist 96/300
+test playlist 97/300
+test playlist 98/300
+test playlist 99/300
+test playlist 100/300test playlist 101/300
+
+test playlist 102/300
+test playlist 103/300
+test playlist 104/300
+test playlist 105/300
+test playlist 106/300
+test playlist 107/300test playlist 108/300
+
+test playlist 109/300test playlist 110/300
+
+test playlist 111/300
+test playlist 112/300
+test playlist 113/300
+test playlist 114/300
+test playlist 115/300
+test playlist 116/300
+test playlist 117/300
+test playlist 118/300
+test playlist 119/300
+test playlist 120/300
+test playlist 121/300
+test playlist 122/300
+test playlist 123/300
+test playlist 124/300
+test playlist 125/300
+test playlist 126/300
+test playlist 127/300
+test playlist 128/300
+test playlist 129/300
+test playlist 130/300
+test playlist 131/300
+test playlist 132/300
+test playlist 133/300
+test playlist 134/300
+test playlist 135/300
+test playlist 136/300
+test playlist 137/300
+test playlist 138/300test playlist 139/300test playlist 140/300
+
+
+test playlist 141/300
+test playlist 142/300
+test playlist 143/300
+test playlist 144/300
+test playlist 145/300
+test playlist 146/300
+test playlist 147/300
+test playlist 148/300
+test playlist 149/300
+test playlist 150/300
+test playlist 151/300
+test playlist 152/300
+test playlist 153/300
+test playlist 154/300
+test playlist 155/300
+test playlist 156/300
+test playlist 157/300
+test playlist 158/300
+test playlist 159/300
+test playlist 160/300
+test playlist 161/300
+test playlist 162/300
+test playlist 163/300
+test playlist 164/300
+test playlist 165/300
+test playlist 166/300
+test playlist 167/300
+test playlist 168/300
+test playlist 169/300
+test playlist 170/300
+test playlist 171/300
+test playlist 172/300
+test playlist 173/300
+test playlist 174/300
+test playlist 175/300
+test playlist 176/300
+test playlist 177/300
+test playlist 178/300
+test playlist 179/300
+test playlist 180/300
+test playlist 181/300test playlist 182/300
+
+test playlist 183/300
+test playlist 184/300
+test playlist 185/300
+test playlist 186/300
+test playlist 187/300
+test playlist 188/300
+test playlist 189/300
+test playlist 190/300
+test playlist 191/300
+test playlist 192/300
+test playlist 193/300
+test playlist 194/300test playlist 195/300test playlist 196/300
+test playlist 197/300
+
+
+test playlist 198/300
+test playlist 199/300
+test playlist 200/300
+test playlist 201/300
+test playlist 202/300
+test playlist 203/300test playlist 204/300
+
+test playlist 205/300
+test playlist 206/300
+test playlist 207/300
+test playlist 208/300
+test playlist 209/300
+test playlist 210/300
+test playlist 211/300
+test playlist 212/300
+test playlist 213/300
+test playlist 214/300
+test playlist 215/300
+test playlist 216/300
+test playlist 217/300test playlist 218/300
+
+test playlist 219/300test playlist 220/300
+
+test playlist 221/300
+test playlist 222/300
+test playlist 223/300
+test playlist 224/300
+test playlist 225/300
+test playlist 226/300
+test playlist 227/300
+test playlist 228/300
+test playlist 229/300
+test playlist 230/300
+test playlist 231/300
+test playlist 232/300
+test playlist 233/300
+test playlist 234/300
+test playlist 235/300
+test playlist 236/300
+test playlist 237/300
+test playlist 238/300
+test playlist 239/300
+test playlist 240/300
+test playlist 241/300
+test playlist 242/300
+test playlist 243/300
+test playlist 244/300
+test playlist 245/300
+test playlist 246/300
+test playlist 247/300
+test playlist 248/300
+test playlist 249/300
+test playlist 250/300test playlist 251/300
+test playlist 252/300
+
+test playlist 253/300
+test playlist 254/300
+test playlist 255/300
+test playlist 256/300
+test playlist 257/300
+test playlist 258/300
+test playlist 259/300
+test playlist 260/300
+test playlist 261/300
+test playlist 262/300
+test playlist 263/300
+test playlist 264/300
+test playlist 265/300
+test playlist 266/300
+test playlist 267/300test playlist 268/300
+
+test playlist 269/300test playlist 270/300
+
+test playlist 271/300
+test playlist 272/300
+test playlist 273/300
+test playlist 274/300
+test playlist 275/300
+test playlist 276/300test playlist 277/300
+
+test playlist 278/300
+test playlist 279/300
+test playlist 280/300
+test playlist 281/300
+test playlist 282/300
+test playlist 283/300
+test playlist 284/300
+test playlist 285/300
+test playlist 286/300
+test playlist 287/300
+test playlist 288/300
+test playlist 289/300
+test playlist 290/300
+test playlist 291/300
+test playlist 292/300
+test playlist 293/300test playlist 294/300
+
+test playlist 295/300test playlist 296/300
+
+test playlist 297/300
+test playlist 298/300
+test playlist 299/300
+test playlist 300/300
+Round 8/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.440
+Method: Popularity - Recall@5: 0.575
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.364
+Method: Co-occurence - Recall@5: 0.520
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.410
+Method: PoissonEmb - Recall@5: 0.598
+test playlist 1/300test playlist 2/300
+test playlist 3/300
+
+test playlist 4/300
+test playlist 5/300
+test playlist 6/300
+test playlist 7/300
+test playlist 8/300
+test playlist 9/300
+test playlist 10/300
+test playlist 11/300
+test playlist 12/300test playlist 13/300
+test playlist 14/300
+
+test playlist 15/300test playlist 16/300
+test playlist 17/300
+
+test playlist 18/300test playlist 19/300
+
+test playlist 20/300
+test playlist 21/300
+test playlist 22/300
+test playlist 23/300
+test playlist 24/300
+test playlist 25/300
+test playlist 26/300
+test playlist 27/300
+test playlist 28/300
+test playlist 29/300test playlist 30/300test playlist 31/300
+
+
+test playlist 32/300
+test playlist 33/300
+test playlist 34/300
+test playlist 35/300test playlist 36/300
+
+test playlist 37/300
+test playlist 38/300
+test playlist 39/300
+test playlist 40/300test playlist 41/300
+
+test playlist 42/300
+test playlist 43/300
+test playlist 44/300
+test playlist 45/300
+test playlist 46/300
+test playlist 47/300
+test playlist 48/300
+test playlist 49/300
+test playlist 50/300
+test playlist 51/300
+test playlist 52/300
+test playlist 53/300
+test playlist 54/300
+test playlist 55/300
+test playlist 56/300
+test playlist 57/300
+test playlist 58/300
+test playlist 59/300
+test playlist 60/300
+test playlist 61/300
+test playlist 62/300
+test playlist 63/300
+test playlist 64/300
+test playlist 65/300
+test playlist 66/300
+test playlist 67/300
+test playlist 68/300
+test playlist 69/300
+test playlist 70/300
+test playlist 71/300
+test playlist 72/300
+test playlist 73/300
+test playlist 74/300
+test playlist 75/300
+test playlist 76/300
+test playlist 77/300
+test playlist 78/300
+test playlist 79/300
+test playlist 80/300
+test playlist 81/300
+test playlist 82/300
+test playlist 83/300
+test playlist 84/300
+test playlist 85/300
+test playlist 86/300
+test playlist 87/300
+test playlist 88/300
+test playlist 89/300test playlist 90/300
+
+test playlist 91/300
+test playlist 92/300
+test playlist 93/300
+test playlist 94/300
+test playlist 95/300test playlist 96/300
+
+test playlist 97/300
+test playlist 98/300
+test playlist 99/300
+test playlist 100/300
+test playlist 101/300
+test playlist 102/300
+test playlist 103/300
+test playlist 104/300
+test playlist 105/300
+test playlist 106/300
+test playlist 107/300
+test playlist 108/300test playlist 109/300
+test playlist 110/300
+
+test playlist 111/300
+test playlist 112/300
+test playlist 113/300
+test playlist 114/300
+test playlist 115/300
+test playlist 116/300
+test playlist 117/300
+test playlist 118/300
+test playlist 119/300
+test playlist 120/300test playlist 121/300
+
+test playlist 122/300
+test playlist 123/300
+test playlist 124/300
+test playlist 125/300
+test playlist 126/300
+test playlist 127/300
+test playlist 128/300
+test playlist 129/300
+test playlist 130/300
+test playlist 131/300
+test playlist 132/300
+test playlist 133/300
+test playlist 134/300
+test playlist 135/300
+test playlist 136/300
+test playlist 137/300
+test playlist 138/300test playlist 139/300
+
+test playlist 140/300
+test playlist 141/300test playlist 142/300
+
+test playlist 143/300
+test playlist 144/300
+test playlist 145/300
+test playlist 146/300
+test playlist 147/300
+test playlist 148/300
+test playlist 149/300
+test playlist 150/300
+test playlist 151/300
+test playlist 152/300
+test playlist 153/300
+test playlist 154/300
+test playlist 155/300
+test playlist 156/300
+test playlist 157/300
+test playlist 158/300
+test playlist 159/300
+test playlist 160/300
+test playlist 161/300
+test playlist 162/300
+test playlist 163/300
+test playlist 164/300
+test playlist 165/300
+test playlist 166/300
+test playlist 167/300
+test playlist 168/300
+test playlist 169/300
+test playlist 170/300
+test playlist 171/300
+test playlist 172/300
+test playlist 173/300test playlist 174/300
+test playlist 175/300
+
+test playlist 176/300
+test playlist 177/300
+test playlist 178/300
+test playlist 179/300
+test playlist 180/300
+test playlist 181/300
+test playlist 182/300test playlist 183/300
+
+test playlist 184/300
+test playlist 185/300
+test playlist 186/300
+test playlist 187/300
+test playlist 188/300
+test playlist 189/300
+test playlist 190/300
+test playlist 191/300
+test playlist 192/300
+test playlist 193/300
+test playlist 194/300
+test playlist 195/300
+test playlist 196/300
+test playlist 197/300test playlist 198/300
+
+test playlist 199/300
+test playlist 200/300
+test playlist 201/300
+test playlist 202/300
+test playlist 203/300
+test playlist 204/300
+test playlist 205/300
+test playlist 206/300
+test playlist 207/300
+test playlist 208/300
+test playlist 209/300
+test playlist 210/300
+test playlist 211/300
+test playlist 212/300
+test playlist 213/300
+test playlist 214/300
+test playlist 215/300
+test playlist 216/300
+test playlist 217/300
+test playlist 218/300
+test playlist 219/300
+test playlist 220/300
+test playlist 221/300
+test playlist 222/300
+test playlist 223/300
+test playlist 224/300
+test playlist 225/300
+test playlist 226/300
+test playlist 227/300
+test playlist 228/300
+test playlist 229/300
+test playlist 230/300
+test playlist 231/300
+test playlist 232/300
+test playlist 233/300
+test playlist 234/300
+test playlist 235/300test playlist 236/300
+
+test playlist 237/300
+test playlist 238/300
+test playlist 239/300test playlist 240/300
+test playlist 241/300
+
+test playlist 242/300
+test playlist 243/300test playlist 244/300
+
+test playlist 245/300
+test playlist 246/300
+test playlist 247/300
+test playlist 248/300
+test playlist 249/300
+test playlist 250/300
+test playlist 251/300test playlist 252/300
+
+test playlist 253/300
+test playlist 254/300
+test playlist 255/300
+test playlist 256/300
+test playlist 257/300
+test playlist 258/300
+test playlist 259/300test playlist 260/300
+
+test playlist 261/300
+test playlist 262/300
+test playlist 263/300
+test playlist 264/300
+test playlist 265/300
+test playlist 266/300
+test playlist 267/300
+test playlist 268/300test playlist 269/300
+test playlist 270/300
+
+test playlist 271/300
+test playlist 272/300
+test playlist 273/300
+test playlist 274/300
+test playlist 275/300test playlist 276/300
+
+test playlist 277/300
+test playlist 278/300
+test playlist 279/300
+test playlist 280/300
+test playlist 281/300test playlist 282/300
+
+test playlist 283/300
+test playlist 284/300
+test playlist 285/300
+test playlist 286/300
+test playlist 287/300
+test playlist 288/300
+test playlist 289/300
+test playlist 290/300
+test playlist 291/300
+test playlist 292/300
+test playlist 293/300
+test playlist 294/300
+test playlist 295/300
+test playlist 296/300
+test playlist 297/300
+test playlist 298/300
+test playlist 299/300
+test playlist 300/300
+Round 9/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.437
+Method: Popularity - Recall@5: 0.575
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.365
+Method: Co-occurence - Recall@5: 0.522
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.408
+Method: PoissonEmb - Recall@5: 0.599
+test playlist 1/300
+test playlist 2/300
+test playlist 3/300
+test playlist 4/300
+test playlist 5/300
+test playlist 6/300
+test playlist 7/300
+test playlist 8/300
+test playlist 9/300test playlist 10/300
+test playlist 11/300
+
+test playlist 12/300
+test playlist 13/300
+test playlist 14/300
+test playlist 15/300test playlist 16/300
+test playlist 17/300
+
+test playlist 18/300
+test playlist 19/300
+test playlist 20/300
+test playlist 21/300
+test playlist 22/300
+test playlist 23/300
+test playlist 24/300
+test playlist 25/300
+test playlist 26/300
+test playlist 27/300test playlist 28/300
+
+test playlist 29/300
+test playlist 30/300
+test playlist 31/300
+test playlist 32/300
+test playlist 33/300
+test playlist 34/300
+test playlist 35/300
+test playlist 36/300
+test playlist 37/300
+test playlist 38/300
+test playlist 39/300
+test playlist 40/300
+test playlist 41/300
+test playlist 42/300
+test playlist 43/300
+test playlist 44/300
+test playlist 45/300
+test playlist 46/300
+test playlist 47/300
+test playlist 48/300
+test playlist 49/300
+test playlist 50/300
+test playlist 51/300
+test playlist 52/300test playlist 53/300
+
+test playlist 54/300
+test playlist 55/300
+test playlist 56/300
+test playlist 57/300
+test playlist 58/300
+test playlist 59/300
+test playlist 60/300
+test playlist 61/300
+test playlist 62/300
+test playlist 63/300test playlist 64/300
+
+test playlist 65/300
+test playlist 66/300
+test playlist 67/300
+test playlist 68/300
+test playlist 69/300
+test playlist 70/300
+test playlist 71/300
+test playlist 72/300
+test playlist 73/300
+test playlist 74/300
+test playlist 75/300
+test playlist 76/300
+test playlist 77/300
+test playlist 78/300
+test playlist 79/300
+test playlist 80/300
+test playlist 81/300test playlist 82/300
+test playlist 83/300
+
+test playlist 84/300
+test playlist 85/300
+test playlist 86/300
+test playlist 87/300
+test playlist 88/300
+test playlist 89/300
+test playlist 90/300
+test playlist 91/300test playlist 92/300
+
+test playlist 93/300
+test playlist 94/300test playlist 95/300
+
+test playlist 96/300
+test playlist 97/300
+test playlist 98/300
+test playlist 99/300
+test playlist 100/300
+test playlist 101/300test playlist 102/300
+
+test playlist 103/300
+test playlist 104/300
+test playlist 105/300
+test playlist 106/300
+test playlist 107/300
+test playlist 108/300
+test playlist 109/300
+test playlist 110/300
+test playlist 111/300
+test playlist 112/300
+test playlist 113/300
+test playlist 114/300
+test playlist 115/300
+test playlist 116/300
+test playlist 117/300test playlist 118/300
+
+test playlist 119/300
+test playlist 120/300
+test playlist 121/300
+test playlist 122/300
+test playlist 123/300
+test playlist 124/300
+test playlist 125/300
+test playlist 126/300
+test playlist 127/300test playlist 128/300
+
+test playlist 129/300
+test playlist 130/300
+test playlist 131/300
+test playlist 132/300
+test playlist 133/300test playlist 134/300test playlist 135/300
+
+
+test playlist 136/300
+test playlist 137/300
+test playlist 138/300
+test playlist 139/300
+test playlist 140/300
+test playlist 141/300
+test playlist 142/300
+test playlist 143/300
+test playlist 144/300
+test playlist 145/300
+test playlist 146/300
+test playlist 147/300test playlist 148/300
+test playlist 149/300
+
+test playlist 150/300
+test playlist 151/300
+test playlist 152/300
+test playlist 153/300
+test playlist 154/300
+test playlist 155/300
+test playlist 156/300
+test playlist 157/300
+test playlist 158/300
+test playlist 159/300
+test playlist 160/300
+test playlist 161/300
+test playlist 162/300
+test playlist 163/300
+test playlist 164/300
+test playlist 165/300
+test playlist 166/300
+test playlist 167/300
+test playlist 168/300
+test playlist 169/300
+test playlist 170/300
+test playlist 171/300
+test playlist 172/300
+test playlist 173/300
+test playlist 174/300
+test playlist 175/300
+test playlist 176/300
+test playlist 177/300
+test playlist 178/300
+test playlist 179/300
+test playlist 180/300
+test playlist 181/300
+test playlist 182/300test playlist 183/300
+
+test playlist 184/300
+test playlist 185/300
+test playlist 186/300
+test playlist 187/300
+test playlist 188/300
+test playlist 189/300
+test playlist 190/300
+test playlist 191/300
+test playlist 192/300
+test playlist 193/300
+test playlist 194/300
+test playlist 195/300test playlist 196/300
+
+test playlist 197/300
+test playlist 198/300
+test playlist 199/300
+test playlist 200/300
+test playlist 201/300
+test playlist 202/300
+test playlist 203/300
+test playlist 204/300
+test playlist 205/300
+test playlist 206/300
+test playlist 207/300
+test playlist 208/300
+test playlist 209/300
+test playlist 210/300
+test playlist 211/300test playlist 212/300
+
+test playlist 213/300
+test playlist 214/300
+test playlist 215/300
+test playlist 216/300
+test playlist 217/300
+test playlist 218/300
+test playlist 219/300
+test playlist 220/300
+test playlist 221/300
+test playlist 222/300
+test playlist 223/300
+test playlist 224/300
+test playlist 225/300
+test playlist 226/300
+test playlist 227/300
+test playlist 228/300
+test playlist 229/300
+test playlist 230/300
+test playlist 231/300test playlist 232/300
+
+test playlist 233/300
+test playlist 234/300
+test playlist 235/300
+test playlist 236/300
+test playlist 237/300
+test playlist 238/300
+test playlist 239/300
+test playlist 240/300
+test playlist 241/300test playlist 242/300
+
+test playlist 243/300
+test playlist 244/300
+test playlist 245/300test playlist 246/300
+test playlist 247/300test playlist 248/300
+
+
+test playlist 249/300
+test playlist 250/300
+test playlist 251/300
+test playlist 252/300
+test playlist 253/300
+test playlist 254/300
+test playlist 255/300
+test playlist 256/300
+test playlist 257/300
+test playlist 258/300
+test playlist 259/300
+test playlist 260/300
+test playlist 261/300test playlist 262/300
+
+test playlist 263/300
+test playlist 264/300
+test playlist 265/300
+test playlist 266/300
+test playlist 267/300
+test playlist 268/300
+test playlist 269/300
+test playlist 270/300
+test playlist 271/300
+test playlist 272/300
+test playlist 273/300
+test playlist 274/300
+test playlist 275/300
+test playlist 276/300
+test playlist 277/300test playlist 278/300
+
+test playlist 279/300
+test playlist 280/300
+test playlist 281/300
+test playlist 282/300
+test playlist 283/300
+test playlist 284/300
+test playlist 285/300
+test playlist 286/300test playlist 287/300
+
+test playlist 288/300
+test playlist 289/300
+test playlist 290/300
+test playlist 291/300
+test playlist 292/300
+test playlist 293/300
+test playlist 294/300
+test playlist 295/300
+test playlist 296/300
+test playlist 297/300
+test playlist 298/300
+test playlist 299/300
+test playlist 300/300
+Round 10/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.440
+Method: Popularity - Recall@5: 0.574
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.363
+Method: Co-occurence - Recall@5: 0.521
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.408
+Method: PoissonEmb - Recall@5: 0.600
+
+Results across 10 evaluation rounds
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.439 +- 0.002
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.365 +- 0.002
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.408 +- 0.001
+Method: Popularity - Recall@5: 0.575 +- 0.001
+Method: Co-occurence - Recall@5: 0.522 +- 0.002
+Method: PoissonEmb - Recall@5: 0.600 +- 0.002

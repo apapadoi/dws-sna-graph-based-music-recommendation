@@ -1,7 +1,11 @@
 *.json
-*million*
+embedding_based/spotify_million_playlist_dataset/*
 .idea
 *.png
 optimized_embeddings.npy
 
 !all*.png
+!indexing_per_node.json
+
+!embedding_based/spotify_million_playlist_dataset/data
+!embedding_based/spotify_million_playlist_dataset/data/mpd.slice.0-999.json
