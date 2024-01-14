@@ -5,6 +5,7 @@ embedding_based/spotify_million_playlist_dataset/*
 optimized_embeddings.npy
 
 !all*.png
+!*1k*.png
 !indexing_per_node.json
 
 !embedding_based/spotify_million_playlist_dataset/data

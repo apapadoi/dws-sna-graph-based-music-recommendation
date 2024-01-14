@@ -1,0 +1,8 @@
+Mean reciprocal rank results (alpha=0.01):
+T-statistic: 8.337304018558537
+P-value: 1.5890484139132378e-05
+Reject the null hypothesis. There is a significant difference between the classifiers.
+Recall results (alpha=0.01):
+T-statistic: -1.5
+P-value: 0.16785065605707486
+Fail to reject the null hypothesis. There is no significant difference between the classifiers.
