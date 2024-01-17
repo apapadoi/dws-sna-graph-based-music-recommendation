@@ -14,6 +14,19 @@ pip install -r requirements.txt
 ```
 and then simply run the notebook.
 
+# HIN
+
+Heterogeneous information network-based music recommendation system.
+
+## Installing
+
+To run the ```HIN.ipynb``` first install all the required libraries with:
+
+```
+pip install -r hin_requirements.txt
+```
+and then simply run the notebook.
+
 ## **Authors:**
 
 ### Anastasios Papadopoulos ([apapadoi@csd.auth.gr](mailto:apapadoi@csd.auth.gr))
