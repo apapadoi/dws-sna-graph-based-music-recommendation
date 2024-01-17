@@ -197,8 +197,8 @@ elif sys.argv[1] == 'challenge':
             else:
                 training_undirected_graph.add_edge(u, v, weight=1)
 elif sys.argv[1] == 'spotify':
-    PLOT_DEGREE_DISTRIBUTION_TITLE = 'Spotify Million Playlist Dataset - training only'
-    PLOT_HIST_PLAYLIST_LENGTH_TITLE = 'Spotify Million Playlist Dataset - both on training and testing'
+    PLOT_DEGREE_DISTRIBUTION_TITLE = 'Spotify Million Playlist Dataset (first 1k playlists only) - training only'
+    PLOT_HIST_PLAYLIST_LENGTH_TITLE = 'Spotify Million Playlist Dataset (first 1k playlists only) - both on training and testing'
     TRAIN_PERCENTAGE_PER_FILE = 0.7
     folder_path = './spotify_million_playlist_dataset/data'
 
@@ -238,7 +238,7 @@ elif sys.argv[1] == 'spotify':
                 if len(current_playlist['tracks']) >= 3:
                     playlist_lengths.append(len(current_playlist['tracks']))
 
-                    if index < len(playlists) * TRAIN_PERCENTAGE_PER_FILE:
+                    if index < ((len(playlists) * TRAIN_PERCENTAGE_PER_FILE) if len(sys.argv) < 4 else (int(sys.argv[3]) * TRAIN_PERCENTAGE_PER_FILE)):
                         current_train_playlist = current_playlist['tracks']
 
                         for current_first_track_index, current_first_track in enumerate(current_train_playlist):
@@ -267,12 +267,17 @@ elif sys.argv[1] == 'spotify':
                             else:
                                 training_undirected_graph.add_edge(u, v, weight=1)
                     else:
-                        test_playlists.append([f"{track['track_name']} {track['artist_name']}_{track['album_name']}" for track in current_playlist['tracks']])
+                        if len(sys.argv) < 4:
+                            test_playlists.append([f"{track['track_name']} {track['artist_name']}_{track['album_name']}" for track in current_playlist['tracks']])
+                        elif index < int(sys.argv[3]):
+                            test_playlists.append([f"{track['track_name']} {track['artist_name']}_{track['album_name']}" for track in current_playlist['tracks']])
+                        else:
+                            break
 
                     total_non_empty_playlists += 1
-            
 
-    print(f'Total playlists: {total_playlists}')
+
+    print(f'Total playlists: {total_playlists if len(sys.argv) < 4 else int(sys.argv[3])}')
     print(f'Non-empty playlists: {total_non_empty_playlists}')
 else:
     raise RuntimeError("Invalid command line argument")
@@ -290,7 +295,7 @@ y_values = list(degree_value_counts.values())
 sns.scatterplot(x=x_values, y=y_values, alpha=0.75)
 plt.xscale('log')
 plt.yscale('log')  
-plt.title(f'Log-log plot of degree distribution ({PLOT_DEGREE_DISTRIBUTION_TITLE})', fontsize=16)
+plt.title(f'Log-log plot of degree distribution \n({PLOT_DEGREE_DISTRIBUTION_TITLE})', fontsize=16)
 plt.xlabel('Log-degree', fontsize=16)
 plt.ylabel('Log-frequency', fontsize=16)
 plt.grid(True)
@@ -299,11 +304,13 @@ plt.savefig("training_undirected_degree_distribution_plot.png")
 plt.figure(figsize=(13, 8))
 sns.histplot(playlist_lengths, binwidth=3)
 plt.yscale('log')  
-plt.title(f'Log plot of playlist length (based on #songs) distribution ({PLOT_HIST_PLAYLIST_LENGTH_TITLE})', fontsize=16)
+plt.title(f'Log plot of playlist length (based on #songs) distribution \n({PLOT_HIST_PLAYLIST_LENGTH_TITLE})', fontsize=16)
 plt.xlabel('Playlist length (based on #songs)', fontsize=16)
 plt.ylabel('Log-frequency', fontsize=16)
 plt.grid(True)
 plt.savefig("training_undirected_playlist_length_distribution_plot.png")
+
+nx.write_gexf(training_undirected_graph, "training_undirected_graph_spotify_1k_playlists.gexf")
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f'Using {"cuda" if device.type == "cuda" else "cpu"}')
@@ -666,7 +673,3 @@ for key, values in recall_at_k_metrics_per_method_per_evaluation_round.items():
     mean = statistics.mean(values)
     variance = statistics.stdev(values)
     print(f"Method: {key} - Recall@{K}: {mean:.3f} +- {variance:.3f}")
-
-# future TODO try yes complete and yes big or not sample test playlists
-# future TODO pass euclidean distance through sigmoid
-# future TODO state that the yes dataset assumes that all testing set songs are found in the training set
