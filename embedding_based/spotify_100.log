@@ -1,0 +1,887 @@
+mpd.slice.0-999.json
+Total playlists: 100
+Non-empty playlists: 100
+Number of nodes (undirected graph): 3638
+Number of edges (undirected graph): 4063
+Using cuda
+Indexing per node: 3638
+Non-neighbors per node: 3638
+Neighbors per node: 3638
+embeddings shape before
+torch.Size([3638, 8])
+epoch: 1/1000
+loss: 14600.75
+epoch: 2/1000
+loss: 14451.3564453125
+epoch: 3/1000
+loss: 14431.234375
+epoch: 4/1000
+loss: 14270.6240234375
+epoch: 5/1000
+loss: 14146.4599609375
+epoch: 6/1000
+loss: 14008.041015625
+epoch: 7/1000
+loss: 13876.205078125
+epoch: 8/1000
+loss: 13810.439453125
+epoch: 9/1000
+loss: 13694.48046875
+epoch: 10/1000
+loss: 13585.1845703125
+epoch: 11/1000
+loss: 13492.9462890625
+epoch: 12/1000
+loss: 13378.177734375
+epoch: 13/1000
+loss: 13289.0546875
+epoch: 14/1000
+loss: 13161.740234375
+epoch: 15/1000
+loss: 13116.923828125
+epoch: 16/1000
+loss: 13008.794921875
+epoch: 17/1000
+loss: 12867.8896484375
+epoch: 18/1000
+loss: 12829.154296875
+epoch: 19/1000
+loss: 12676.0927734375
+epoch: 20/1000
+loss: 12637.7177734375
+epoch: 21/1000
+loss: 12539.0078125
+epoch: 22/1000
+loss: 12422.0849609375
+epoch: 23/1000
+loss: 12298.60546875
+epoch: 24/1000
+loss: 12243.8876953125
+epoch: 25/1000
+loss: 12215.7412109375
+epoch: 26/1000
+loss: 12072.767578125
+epoch: 27/1000
+loss: 12000.71484375
+epoch: 28/1000
+loss: 11900.458984375
+epoch: 29/1000
+loss: 11836.72265625
+epoch: 30/1000
+loss: 11712.580078125
+epoch: 31/1000
+loss: 11643.638671875
+epoch: 32/1000
+loss: 11626.4052734375
+epoch: 33/1000
+loss: 11487.7958984375
+epoch: 34/1000
+loss: 11448.3017578125
+epoch: 35/1000
+loss: 11382.0517578125
+epoch: 36/1000
+loss: 11312.892578125
+epoch: 37/1000
+loss: 11208.982421875
+epoch: 38/1000
+loss: 11181.5595703125
+epoch: 39/1000
+loss: 11130.068359375
+epoch: 40/1000
+loss: 11065.28125
+epoch: 41/1000
+loss: 10929.0927734375
+epoch: 42/1000
+loss: 10945.927734375
+epoch: 43/1000
+loss: 10815.9833984375
+epoch: 44/1000
+loss: 10777.9990234375
+epoch: 45/1000
+loss: 10750.34765625
+epoch: 46/1000
+loss: 10700.7236328125
+epoch: 47/1000
+loss: 10606.498046875
+epoch: 48/1000
+loss: 10583.669921875
+epoch: 49/1000
+loss: 10470.259765625
+epoch: 50/1000
+loss: 10484.8857421875
+epoch: 51/1000
+loss: 10483.5947265625
+epoch: 52/1000
+loss: 10369.5703125
+epoch: 53/1000
+loss: 10314.9833984375
+epoch: 54/1000
+loss: 10275.4580078125
+epoch: 55/1000
+loss: 10207.205078125
+epoch: 56/1000
+loss: 10101.2978515625
+epoch: 57/1000
+loss: 10090.7890625
+epoch: 58/1000
+loss: 10052.0810546875
+epoch: 59/1000
+loss: 10020.8134765625
+epoch: 60/1000
+loss: 9956.1103515625
+epoch: 61/1000
+loss: 9908.7392578125
+epoch: 62/1000
+loss: 9894.9619140625
+epoch: 63/1000
+loss: 9838.234375
+epoch: 64/1000
+loss: 9847.6708984375
+epoch: 65/1000
+loss: 9796.4560546875
+epoch: 66/1000
+loss: 9762.7978515625
+epoch: 67/1000
+loss: 9734.6123046875
+epoch: 68/1000
+loss: 9656.8193359375
+epoch: 69/1000
+loss: 9676.0263671875
+epoch: 70/1000
+loss: 9587.818359375
+epoch: 71/1000
+loss: 9562.0966796875
+epoch: 72/1000
+loss: 9485.330078125
+epoch: 73/1000
+loss: 9496.4228515625
+epoch: 74/1000
+loss: 9469.1416015625
+epoch: 75/1000
+loss: 9432.4130859375
+epoch: 76/1000
+loss: 9385.8486328125
+epoch: 77/1000
+loss: 9310.7158203125
+epoch: 78/1000
+loss: 9413.0625
+epoch: 79/1000
+loss: 9304.822265625
+epoch: 80/1000
+loss: 9294.38671875
+epoch: 81/1000
+loss: 9218.2041015625
+epoch: 82/1000
+loss: 9256.8525390625
+epoch: 83/1000
+loss: 9268.83984375
+epoch: 84/1000
+loss: 9199.46875
+epoch: 85/1000
+loss: 9161.4326171875
+epoch: 86/1000
+loss: 9125.16796875
+epoch: 87/1000
+loss: 9127.8876953125
+epoch: 88/1000
+loss: 9110.19921875
+epoch: 89/1000
+loss: 9054.4599609375
+epoch: 90/1000
+loss: 9083.9375
+epoch: 91/1000
+loss: 9062.39453125
+epoch: 92/1000
+loss: 8940.267578125
+epoch: 93/1000
+loss: 8994.763671875
+epoch: 94/1000
+loss: 9019.1220703125
+epoch: 95/1000
+loss: 8951.154296875
+epoch: 96/1000
+loss: 8935.484375
+epoch: 97/1000
+loss: 8943.0166015625
+epoch: 98/1000
+loss: 8905.51171875
+epoch: 99/1000
+loss: 8889.251953125
+epoch: 100/1000
+loss: 8913.12109375
+epoch: 101/1000
+loss: 8823.3544921875
+epoch: 102/1000
+loss: 8831.0009765625
+epoch: 103/1000
+loss: 8866.65234375
+epoch: 104/1000
+loss: 8783.1201171875
+epoch: 105/1000
+loss: 8778.8310546875
+epoch: 106/1000
+loss: 8778.6279296875
+epoch: 107/1000
+loss: 8722.3994140625
+epoch: 108/1000
+loss: 8767.6015625
+epoch: 109/1000
+loss: 8758.5322265625
+epoch: 110/1000
+loss: 8701.462890625
+epoch: 111/1000
+loss: 8737.212890625
+epoch: 112/1000
+loss: 8683.93359375
+epoch: 113/1000
+loss: 8680.8515625
+epoch: 114/1000
+loss: 8654.490234375
+epoch: 115/1000
+loss: 8599.482421875
+epoch: 116/1000
+loss: 8698.3388671875
+epoch: 117/1000
+loss: 8599.220703125
+epoch: 118/1000
+loss: 8565.798828125
+epoch: 119/1000
+loss: 8589.6474609375
+epoch: 120/1000
+loss: 8583.3564453125
+epoch: 121/1000
+loss: 8540.244140625
+epoch: 122/1000
+loss: 8522.818359375
+epoch: 123/1000
+loss: 8504.5341796875
+epoch: 124/1000
+loss: 8528.333984375
+epoch: 125/1000
+loss: 8514.6484375
+epoch: 126/1000
+loss: 8507.748046875
+epoch: 127/1000
+loss: 8491.2763671875
+epoch: 128/1000
+loss: 8488.1533203125
+epoch: 129/1000
+loss: 8548.3779296875
+epoch: 130/1000
+loss: 8499.03515625
+epoch: 131/1000
+loss: 8437.8076171875
+epoch: 132/1000
+loss: 8465.3251953125
+epoch: 133/1000
+loss: 8418.7109375
+epoch: 134/1000
+loss: 8439.4453125
+epoch: 135/1000
+loss: 8461.83984375
+epoch: 136/1000
+loss: 8400.0634765625
+epoch: 137/1000
+loss: 8442.37890625
+epoch: 138/1000
+loss: 8448.9697265625
+epoch: 139/1000
+loss: 8400.388671875
+epoch: 140/1000
+loss: 8398.2294921875
+epoch: 141/1000
+loss: 8338.5341796875
+epoch: 142/1000
+loss: 8355.70703125
+epoch: 143/1000
+loss: 8360.689453125
+epoch: 144/1000
+loss: 8301.595703125
+epoch: 145/1000
+loss: 8285.8515625
+epoch: 146/1000
+loss: 8315.720703125
+epoch: 147/1000
+loss: 8365.669921875
+epoch: 148/1000
+loss: 8298.927734375
+epoch: 149/1000
+loss: 8287.3779296875
+epoch: 150/1000
+loss: 8295.423828125
+epoch: 151/1000
+loss: 8300.1943359375
+epoch: 152/1000
+loss: 8300.0966796875
+epoch: 153/1000
+loss: 8306.9912109375
+epoch: 154/1000
+loss: 8260.521484375
+epoch: 155/1000
+loss: 8243.16015625
+epoch: 156/1000
+loss: 8236.2109375
+epoch: 157/1000
+loss: 8207.80859375
+epoch: 158/1000
+loss: 8172.79833984375
+epoch: 159/1000
+loss: 8203.7548828125
+epoch: 160/1000
+loss: 8248.8603515625
+epoch: 161/1000
+loss: 8162.3515625
+epoch: 162/1000
+loss: 8169.73876953125
+epoch: 163/1000
+loss: 8215.990234375
+epoch: 164/1000
+loss: 8153.9501953125
+epoch: 165/1000
+loss: 8124.04296875
+epoch: 166/1000
+loss: 8131.7138671875
+epoch: 167/1000
+loss: 8202.0634765625
+epoch: 168/1000
+loss: 8130.232421875
+epoch: 169/1000
+loss: 8132.95458984375
+epoch: 170/1000
+loss: 8151.99462890625
+epoch: 171/1000
+loss: 8118.62939453125
+epoch: 172/1000
+loss: 8164.7119140625
+epoch: 173/1000
+loss: 8161.18896484375
+epoch: 174/1000
+loss: 8083.189453125
+epoch: 175/1000
+loss: 8124.328125
+epoch: 176/1000
+loss: 8109.22509765625
+epoch: 177/1000
+loss: 8117.3232421875
+epoch: 178/1000
+loss: 8071.1845703125
+epoch: 179/1000
+loss: 8095.4326171875
+epoch: 180/1000
+loss: 8054.50634765625
+epoch: 181/1000
+loss: 8055.35546875
+epoch: 182/1000
+loss: 8105.5859375
+epoch: 183/1000
+loss: 8045.224609375
+epoch: 184/1000
+loss: 8054.26806640625
+epoch: 185/1000
+loss: 8058.53759765625
+epoch: 186/1000
+loss: 8024.9296875
+epoch: 187/1000
+loss: 7993.18310546875
+epoch: 188/1000
+loss: 8039.70556640625
+epoch: 189/1000
+loss: 8022.5947265625
+epoch: 190/1000
+loss: 8002.19775390625
+epoch: 191/1000
+loss: 8019.36572265625
+epoch: 192/1000
+loss: 8024.05712890625
+epoch: 193/1000
+loss: 7980.58154296875
+epoch: 194/1000
+loss: 8022.07861328125
+epoch: 195/1000
+loss: 7988.92919921875
+epoch: 196/1000
+loss: 7954.70361328125
+epoch: 197/1000
+loss: 7949.34326171875
+epoch: 198/1000
+loss: 7975.2724609375
+epoch: 199/1000
+loss: 8008.2646484375
+epoch: 200/1000
+loss: 7966.6337890625
+epoch: 201/1000
+loss: 7917.48291015625
+epoch: 202/1000
+loss: 7955.185546875
+epoch: 203/1000
+loss: 7970.32861328125
+epoch: 204/1000
+loss: 7958.732421875
+epoch: 205/1000
+loss: 7907.8291015625
+epoch: 206/1000
+loss: 7893.7412109375
+epoch: 207/1000
+loss: 7900.83935546875
+epoch: 208/1000
+loss: 7904.09619140625
+epoch: 209/1000
+loss: 7941.703125
+epoch: 210/1000
+loss: 7900.111328125
+epoch: 211/1000
+loss: 7913.2353515625
+epoch: 212/1000
+loss: 7899.56103515625
+epoch: 213/1000
+loss: 7882.326171875
+epoch: 214/1000
+loss: 7906.06884765625
+epoch: 215/1000
+loss: 7884.455078125
+epoch: 216/1000
+loss: 7954.486328125
+epoch: 217/1000
+loss: 7901.76318359375
+epoch: 218/1000
+loss: 7871.564453125
+epoch: 219/1000
+loss: 7893.5205078125
+epoch: 220/1000
+loss: 7861.13623046875
+epoch: 221/1000
+loss: 7863.08154296875
+epoch: 222/1000
+loss: 7854.1669921875
+epoch: 223/1000
+loss: 7885.580078125
+epoch: 224/1000
+loss: 7883.7197265625
+epoch: 225/1000
+loss: 7870.94091796875
+epoch: 226/1000
+loss: 7852.21826171875
+epoch: 227/1000
+loss: 7820.0712890625
+epoch: 228/1000
+loss: 7859.103515625
+epoch: 229/1000
+loss: 7755.6142578125
+epoch: 230/1000
+loss: 7881.9658203125
+epoch: 231/1000
+loss: 7809.189453125
+epoch: 232/1000
+loss: 7808.08154296875
+epoch: 233/1000
+loss: 7796.62744140625
+epoch: 234/1000
+loss: 7770.1904296875
+epoch: 235/1000
+loss: 7874.7646484375
+epoch: 236/1000
+loss: 7789.5791015625
+epoch: 237/1000
+loss: 7702.60400390625
+epoch: 238/1000
+loss: 7799.71484375
+epoch: 239/1000
+loss: 7788.49951171875
+epoch: 240/1000
+loss: 7768.44677734375
+epoch: 241/1000
+loss: 7759.6611328125
+epoch: 242/1000
+loss: 7767.06591796875
+epoch: 243/1000
+loss: 7767.423828125
+epoch: 244/1000
+loss: 7760.29296875
+epoch: 245/1000
+loss: 7777.8271484375
+epoch: 246/1000
+loss: 7780.9677734375
+epoch: 247/1000
+loss: 7768.6220703125
+Early stopping - Epoch: 246, Best loss: 7702.60400390625
+Total Training Time: 421.2081 seconds
+embeddings shape after
+(3638, 8)
+test playlist 1/30
+test playlist 2/30
+test playlist 3/30
+test playlist 4/30
+test playlist 5/30
+test playlist 6/30
+test playlist 7/30
+test playlist 8/30
+test playlist 9/30
+test playlist 10/30
+test playlist 11/30
+test playlist 12/30
+test playlist 13/30
+test playlist 14/30
+test playlist 15/30
+test playlist 16/30
+test playlist 17/30
+test playlist 18/30
+test playlist 19/30test playlist 20/30
+
+test playlist 21/30test playlist 22/30
+
+test playlist 23/30
+test playlist 24/30
+test playlist 25/30
+test playlist 26/30
+test playlist 27/30
+test playlist 28/30
+test playlist 29/30
+test playlist 30/30
+Round 1/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.185
+Method: Popularity - Recall@5: 0.159
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.274
+Method: Co-occurence - Recall@5: 0.451
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.219
+Method: PoissonEmb - Recall@5: 0.311
+test playlist 1/30
+test playlist 2/30
+test playlist 3/30test playlist 4/30
+test playlist 5/30
+
+test playlist 6/30
+test playlist 7/30
+test playlist 8/30test playlist 9/30
+
+test playlist 10/30
+test playlist 11/30
+test playlist 12/30
+test playlist 13/30
+test playlist 14/30
+test playlist 15/30
+test playlist 16/30
+test playlist 17/30
+test playlist 18/30
+test playlist 19/30
+test playlist 20/30
+test playlist 21/30
+test playlist 22/30
+test playlist 23/30
+test playlist 24/30
+test playlist 25/30
+test playlist 26/30
+test playlist 27/30
+test playlist 28/30
+test playlist 29/30
+test playlist 30/30
+Round 2/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.188
+Method: Popularity - Recall@5: 0.159
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.278
+Method: Co-occurence - Recall@5: 0.456
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.232
+Method: PoissonEmb - Recall@5: 0.332
+test playlist 1/30
+test playlist 2/30
+test playlist 3/30
+test playlist 4/30
+test playlist 5/30
+test playlist 6/30
+test playlist 7/30
+test playlist 8/30
+test playlist 9/30
+test playlist 10/30
+test playlist 11/30
+test playlist 12/30
+test playlist 13/30
+test playlist 14/30
+test playlist 15/30
+test playlist 16/30test playlist 17/30test playlist 18/30
+
+
+test playlist 19/30
+test playlist 20/30
+test playlist 21/30
+test playlist 22/30
+test playlist 23/30
+test playlist 24/30
+test playlist 25/30
+test playlist 26/30
+test playlist 27/30
+test playlist 28/30
+test playlist 29/30
+test playlist 30/30
+Round 3/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.188
+Method: Popularity - Recall@5: 0.159
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.262
+Method: Co-occurence - Recall@5: 0.437
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.227
+Method: PoissonEmb - Recall@5: 0.324
+test playlist 1/30
+test playlist 2/30
+test playlist 3/30
+test playlist 4/30
+test playlist 5/30
+test playlist 6/30
+test playlist 7/30
+test playlist 8/30
+test playlist 9/30test playlist 10/30
+
+test playlist 11/30
+test playlist 12/30
+test playlist 13/30
+test playlist 14/30
+test playlist 15/30
+test playlist 16/30
+test playlist 17/30
+test playlist 18/30
+test playlist 19/30test playlist 20/30
+
+test playlist 21/30
+test playlist 22/30
+test playlist 23/30
+test playlist 24/30
+test playlist 25/30
+test playlist 26/30
+test playlist 27/30
+test playlist 28/30
+test playlist 29/30
+test playlist 30/30
+Round 4/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.187
+Method: Popularity - Recall@5: 0.159
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.266
+Method: Co-occurence - Recall@5: 0.446
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.215
+Method: PoissonEmb - Recall@5: 0.295
+test playlist 1/30
+test playlist 2/30
+test playlist 3/30
+test playlist 4/30
+test playlist 5/30test playlist 6/30
+
+test playlist 7/30
+test playlist 8/30
+test playlist 9/30
+test playlist 10/30
+test playlist 11/30
+test playlist 12/30
+test playlist 13/30
+test playlist 14/30test playlist 15/30
+
+test playlist 16/30
+test playlist 17/30
+test playlist 18/30
+test playlist 19/30
+test playlist 20/30
+test playlist 21/30test playlist 22/30
+
+test playlist 23/30
+test playlist 24/30
+test playlist 25/30
+test playlist 26/30
+test playlist 27/30
+test playlist 28/30
+test playlist 29/30
+test playlist 30/30
+Round 5/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.181
+Method: Popularity - Recall@5: 0.159
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.278
+Method: Co-occurence - Recall@5: 0.450
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.220
+Method: PoissonEmb - Recall@5: 0.316
+test playlist 1/30
+test playlist 2/30
+test playlist 3/30
+test playlist 4/30
+test playlist 5/30
+test playlist 6/30test playlist 7/30
+
+test playlist 8/30
+test playlist 9/30
+test playlist 10/30test playlist 11/30
+
+test playlist 12/30
+test playlist 13/30
+test playlist 14/30
+test playlist 15/30
+test playlist 16/30
+test playlist 17/30
+test playlist 18/30
+test playlist 19/30
+test playlist 20/30
+test playlist 21/30
+test playlist 22/30
+test playlist 23/30
+test playlist 24/30
+test playlist 25/30
+test playlist 26/30
+test playlist 27/30
+test playlist 28/30
+test playlist 29/30test playlist 30/30
+
+Round 6/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.187
+Method: Popularity - Recall@5: 0.159
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.278
+Method: Co-occurence - Recall@5: 0.454
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.233
+Method: PoissonEmb - Recall@5: 0.346
+test playlist 1/30
+test playlist 2/30
+test playlist 3/30
+test playlist 4/30
+test playlist 5/30
+test playlist 6/30test playlist 7/30
+test playlist 8/30
+
+test playlist 9/30
+test playlist 10/30
+test playlist 11/30
+test playlist 12/30
+test playlist 13/30
+test playlist 14/30
+test playlist 15/30
+test playlist 16/30
+test playlist 17/30
+test playlist 18/30
+test playlist 19/30
+test playlist 20/30
+test playlist 21/30
+test playlist 22/30
+test playlist 23/30
+test playlist 24/30test playlist 25/30
+
+test playlist 26/30test playlist 27/30
+
+test playlist 28/30test playlist 29/30
+
+test playlist 30/30
+Round 7/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.184
+Method: Popularity - Recall@5: 0.159
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.278
+Method: Co-occurence - Recall@5: 0.444
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.225
+Method: PoissonEmb - Recall@5: 0.320
+test playlist 1/30
+test playlist 2/30
+test playlist 3/30
+test playlist 4/30
+test playlist 5/30
+test playlist 6/30
+test playlist 7/30
+test playlist 8/30
+test playlist 9/30
+test playlist 10/30
+test playlist 11/30
+test playlist 12/30test playlist 13/30
+
+test playlist 14/30
+test playlist 15/30
+test playlist 16/30
+test playlist 17/30
+test playlist 18/30
+test playlist 19/30
+test playlist 20/30
+test playlist 21/30
+test playlist 22/30
+test playlist 23/30
+test playlist 24/30test playlist 25/30
+
+test playlist 26/30
+test playlist 27/30
+test playlist 28/30
+test playlist 29/30
+test playlist 30/30
+Round 8/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.186
+Method: Popularity - Recall@5: 0.159
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.276
+Method: Co-occurence - Recall@5: 0.459
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.226
+Method: PoissonEmb - Recall@5: 0.322
+test playlist 1/30test playlist 2/30
+test playlist 3/30
+test playlist 4/30
+
+test playlist 5/30
+test playlist 6/30test playlist 7/30
+
+test playlist 8/30
+test playlist 9/30
+test playlist 10/30
+test playlist 11/30
+test playlist 12/30test playlist 13/30
+
+test playlist 14/30
+test playlist 15/30
+test playlist 16/30
+test playlist 17/30
+test playlist 18/30
+test playlist 19/30
+test playlist 20/30
+test playlist 21/30test playlist 22/30
+
+test playlist 23/30
+test playlist 24/30
+test playlist 25/30
+test playlist 26/30
+test playlist 27/30
+test playlist 28/30
+test playlist 29/30
+test playlist 30/30
+Round 9/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.186
+Method: Popularity - Recall@5: 0.159
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.281
+Method: Co-occurence - Recall@5: 0.463
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.229
+Method: PoissonEmb - Recall@5: 0.323
+test playlist 1/30test playlist 2/30
+
+test playlist 3/30
+test playlist 4/30
+test playlist 5/30
+test playlist 6/30
+test playlist 7/30
+test playlist 8/30test playlist 9/30
+
+test playlist 10/30
+test playlist 11/30
+test playlist 12/30
+test playlist 13/30
+test playlist 14/30
+test playlist 15/30
+test playlist 16/30
+test playlist 17/30
+test playlist 18/30
+test playlist 19/30
+test playlist 20/30
+test playlist 21/30
+test playlist 22/30
+test playlist 23/30
+test playlist 24/30
+test playlist 25/30
+test playlist 26/30
+test playlist 27/30
+test playlist 28/30
+test playlist 29/30
+test playlist 30/30
+Round 10/10 results:
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.188
+Method: Popularity - Recall@5: 0.159
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.276
+Method: Co-occurence - Recall@5: 0.454
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.228
+Method: PoissonEmb - Recall@5: 0.325
+
+Results across 10 evaluation rounds
+Method: Popularity - Mean Reciprocal Rank (MRR): 0.186 +- 0.002
+Method: Co-occurence - Mean Reciprocal Rank (MRR): 0.275 +- 0.006
+Method: PoissonEmb - Mean Reciprocal Rank (MRR): 0.225 +- 0.006
+Method: Popularity - Recall@5: 0.159 +- 0.000
+Method: Co-occurence - Recall@5: 0.451 +- 0.008
+Method: PoissonEmb - Recall@5: 0.321 +- 0.013
