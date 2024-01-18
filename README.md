@@ -7,8 +7,11 @@
 # CORLP
 Complex Number Representation Link Prediction Music Recommendation 
 ## Installing 
-To run the ```corlp.ipynb``` first install all the required libraries with:
-
+To run the ```corlp.ipynb``` first, install all the required libraries. To do so, change the directory in the CORLP folder,
+```
+cd CORLP
+```
+and then install the libraries with:
 ```
 pip install -r requirements.txt
 ```
